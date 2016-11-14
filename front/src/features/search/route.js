@@ -1,10 +1,10 @@
-export default function SearchRoute($stateProvider) {
+export default function InfoRoute($stateProvider) {
 
 	$stateProvider
-		.state('search', {
+		.state('info', {
 			parent: 'codemotion',
 			cache: false,
-			url: '/search',
-			templateUrl: "src/features/search/template.html"
+			url: '/info',
+			templateUrl: "src/features/info/template.html"
 		})
 };
