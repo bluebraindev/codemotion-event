@@ -1,5 +1,4 @@
 export default function HomeRoute($stateProvider) {
-
 	$stateProvider
 		.state('home', {
 			parent: 'codemotion',

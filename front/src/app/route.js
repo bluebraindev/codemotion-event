@@ -1,6 +1,6 @@
 export default function AppRoute($stateProvider, $urlRouterProvider) {
 	
-	$urlRouterProvider.otherwise('/home');
+	$urlRouterProvider.otherwise('/codemotion/home');
 
 	$stateProvider
 		.state('codemotion', {

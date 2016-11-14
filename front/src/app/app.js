@@ -1,9 +1,11 @@
 import route from './route'
+import home from '../features/home'
 
 angular
 	.module('codemotion', [
 		'ionic',
-		'ui.router'
+		'ui.router',
+		home
 	])
 	.config(route)
 	.run(function ($ionicPlatform) {

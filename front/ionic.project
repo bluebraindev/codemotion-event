@@ -1,4 +1,12 @@
 {
   "name": "codemotion-event",
-  "app_id": ""
+  "app_id": "",
+  "gulpStartupTasks": [
+    "watch",
+    "default"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
