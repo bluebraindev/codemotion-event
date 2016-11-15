@@ -1,7 +1,8 @@
 import route from './route'
 
-angular
-	.module('codemotion.info', [
+export default angular
+	.module('codemotion.search', [
 		'ui.router'
 	])
 	.config(route)
+	.name;
