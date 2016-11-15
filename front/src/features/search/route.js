@@ -1,13 +1,13 @@
 export default function InfoRoute($stateProvider) {
 
 	$stateProvider
-		.state('info', {
+		.state('search', {
 			parent: 'codemotion',
 			cache: false,
-			url: '/info',
+			url: '/search',
 			views: {
 				'bodyView': {
-					templateUrl: "src/features/info/template.html"
+					templateUrl: "src/features/search/template.html"
 				}
 			}
 		})

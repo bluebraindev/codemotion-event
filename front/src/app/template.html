@@ -1,13 +1,13 @@
-<ion-content>
+<ion-content scroll="false">
     <ion-nav-view name="bodyView"></ion-nav-view>
     <ion-footer-bar class="code-footer">
-        <div class="option ">
+        <div ng-class="vm.footer.home" ng-click="vm.navigation('home')">
             <i class="icon ion-home"></i>
         </div>
-        <div class="option">
+        <div ng-class="vm.footer.search" ng-click="vm.navigation('search')">
             <i class="icon ion-android-search"></i>
         </div>
-        <div class="option actived">
+        <div ng-class="vm.footer.info" ng-click="vm.navigation('info')">
             <i class="icon ion-information-circled"></i>
         </div>
     </ion-footer-bar>

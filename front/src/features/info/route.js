@@ -1,13 +1,13 @@
-export default function SpeakerRoute($stateProvider) {
+export default function InfoRoute($stateProvider) {
 
 	$stateProvider
-		.state('speaker', {
+		.state('info', {
 			parent: 'codemotion',
 			cache: false,
-			url: '/speaker',
+			url: '/info',
 			views: {
                 'bodyView': {
-					templateUrl: "src/features/speaker/template.html"
+					templateUrl: "src/features/info/template.html"
 				}
 			}
 		})

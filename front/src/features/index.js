@@ -1,10 +1,11 @@
-import './home';
-import './info';
-import './search';
+import home from './home'
+import info from './info'
+import search from './search'
 
-angular
+export default angular
     .module('codemotion.features', [
-        'codemotion.home',
-        'codemotion.info',
-        'codemotion.search'
-    ]);
+        home,
+        info,
+        search
+    ])
+    .name;

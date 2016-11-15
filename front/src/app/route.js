@@ -7,6 +7,7 @@ export default function AppRoute($stateProvider, $urlRouterProvider) {
 			abstract: true,
 			cache: false,
 			url: '/codemotion',
+			controller: 'AppController as vm',
 			templateUrl: "src/app/template.html"
 		})
 };
