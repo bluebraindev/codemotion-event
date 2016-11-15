@@ -4,6 +4,10 @@ export default function HomeRoute($stateProvider) {
 			parent: 'codemotion',
 			cache: false,
 			url: '/home',
-			templateUrl: "src/features/home/template.html"
+			views: {
+				'bodyView': {
+					templateUrl: "src/features/home/template.html"
+				}
+			}
 		})
 };

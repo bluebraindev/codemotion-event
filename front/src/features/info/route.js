@@ -5,6 +5,10 @@ export default function SpeakerRoute($stateProvider) {
 			parent: 'codemotion',
 			cache: false,
 			url: '/speaker',
-			templateUrl: "src/features/speaker/template.html"
+			views: {
+                'bodyView': {
+					templateUrl: "src/features/speaker/template.html"
+				}
+			}
 		})
 };

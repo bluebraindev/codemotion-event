@@ -5,6 +5,10 @@ export default function InfoRoute($stateProvider) {
 			parent: 'codemotion',
 			cache: false,
 			url: '/info',
-			templateUrl: "src/features/info/template.html"
+			views: {
+				'bodyView': {
+					templateUrl: "src/features/info/template.html"
+				}
+			}
 		})
 };
