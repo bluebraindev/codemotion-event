@@ -1,0 +1,39 @@
+.code-footer {
+    bottom: 0;
+    padding: 0;
+    border-top: 1px solid $primary-color;
+    height: 2.75rem;
+    display: flex;
+    flex-direction: row;
+    background-color: $secondary-color;
+    width: 101%;
+
+    .option:first-child{
+        border-left: none;
+    }
+
+    .option:last-child{
+        border-right: none;
+    }
+
+    .option{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 33%;
+        
+        border-right: 1px solid $primary-color;
+        border-left: 1px solid $primary-color;
+        text-align: center;
+        color: $primary-color;
+        font-size: 1.8rem;
+
+        padding: .5rem;
+    }
+
+    .actived {
+        color: $secondary-color;
+        background-color: $primary-color;
+    }
+
+
+}
