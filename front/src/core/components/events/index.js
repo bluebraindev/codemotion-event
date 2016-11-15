@@ -1,11 +1,6 @@
-import templateUrl from './template.html';
-import EventController from './controller';
+import component from './component';
 
-export const EventComponent = {
-    bindings: {
-
-    },
-    templateUrl,
-    controller: EventController,
-    controllerAs: 'vm'
-}
+export default angular
+    .module('events', [])
+    .component('codeEvent', component)
+    .name;
