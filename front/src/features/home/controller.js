@@ -1,5 +1,23 @@
-export default function HomeController($scope, $state, $http, $home) {
+export default function HomeController() {
     'ngInject'
     var vm = this;
-    $state.go('home.room-events');
+    vm.rooms = [
+        {
+            name: 'A'
+        },
+        {
+            name: 'B'
+        },
+        {
+            name: 'C'
+        },
+        {
+            name: 'D'
+        },
+        {
+            name: 'E'
+        }
+    ];
+
+    
 }
