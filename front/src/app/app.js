@@ -1,11 +1,13 @@
-import route from './route'
-import controller from './controller'
-import features from '../features'
+import route from './route';
+import controller from './controller';
+import core from '../core';
+import features from '../features';
 
 angular
 	.module('codemotion', [
 		'ionic',
 		'ui.router',
+		core,
 		features
 	])
 	.config(route)

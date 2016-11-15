@@ -4,12 +4,12 @@ import Controller from './controller';
 import RoomComponent from './components/room';
 
 // import './event-details';
-// import './room-events';
+import './room-events';
 
 export default angular
     .module('codemotion.home', [
         'ui.router',
-        // 'codemotion.home.room-events',
+        'codemotion.home.room-events',
         // 'codemotion.home.event-details'
     ])
     .config(route)

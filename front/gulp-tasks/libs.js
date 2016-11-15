@@ -5,6 +5,7 @@ module.exports = function () {
     var _src = [
         './lib/ionic/js/ionic.bundle.min.js',
         './lib/moment/min/moment.min.js',
+        './lib/ionic-timepicker/dist/ionic-timepicker.bundle.min.js'
     ];
 
     return gulp.src(_src)

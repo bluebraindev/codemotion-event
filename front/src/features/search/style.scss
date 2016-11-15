@@ -1,0 +1,43 @@
+.code-search{
+    .search-header{
+        display: flex;
+        order: 1;
+        background-color: $primary-color;
+        background-image: none;
+
+        select {
+            display: flex;
+            width: 93%;
+            text-align-last: center;
+            background-color: transparent;
+            border: none;
+            color: $secondary-color;
+        }
+    } 
+    .search-bar{
+        order: 2;
+        display: flex;
+        flex-direction: row;
+        padding: .5rem;
+        background-color: $primary-color;
+
+        .search-item{
+            display: flex;
+            flex-direction: row;
+            flex-basis: 50%;
+            color: $secondary-color;
+
+            input {
+                background-color: transparent;
+                border-bottom: 1px solid $secondary-color;
+                width: 70%;
+            }
+            
+            i {
+                padding: .5rem .8rem;
+                font-size: 1.5rem;
+            } 
+        }
+    }
+
+}
