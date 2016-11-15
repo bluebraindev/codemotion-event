@@ -1,3 +1,9 @@
-<ion-content class="has-footer">
-    <h1>HOME</h1>
+<ion-content class="home">
+    <div ng-repeat="room in vm.rooms track by $index">
+        <div ng-if="$even" class="row">
+            <div class="col col-50">{{room}}</div>
+            <div class="col col-50">{{vm.rooms[$index +1]}}</div>
+        </div> 
+    </div>
+    <room-component></room-component>
 </ion-content>
