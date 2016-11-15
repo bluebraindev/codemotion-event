@@ -6,7 +6,8 @@ export default function HomeRoute($stateProvider) {
 			url: '/home',
 			views: {
 				'bodyView': {
-					templateUrl: "src/features/home/template.html"
+					templateUrl: "src/features/home/template.html",
+					controller: 'HomeController as vm'
 				}
 			}
 		})
