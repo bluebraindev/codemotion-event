@@ -4,7 +4,7 @@ import Service from './service';
 
 angular
     .module('codemotion.home.room-events', [
-        'ui.router'
+        'ui.router',
     ])
     .config(route)
     .controller('RoomEventsController', Controller)

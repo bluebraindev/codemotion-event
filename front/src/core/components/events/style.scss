@@ -1,0 +1,25 @@
+.code-event-card{
+    display: flex;
+    flex-direction: column;
+
+    .row-info{
+        display: flex;
+        flex-direction: row;
+
+        img {
+            height: 2rem;
+            width: 2rem;
+        }
+
+        .info{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .row-hours{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

@@ -1,3 +1,19 @@
 <section class="code-event-card">
-    
+    <div class="row-info">
+        <img src="data.contents.authors[0].avatar" alt="">
+        <div class="info">
+            <p class="tittle" ng-bind="data.contents.title"></p>
+            <p class="author" ng-bind="data.contents.authors[0].twitterAccount"></p>
+        </div>
+    </div>
+    <div class="row-hours">
+        <div class="start-hour">
+            <i class="icon ion-arrow-right-b"></i>
+            <span ng-bind="data.start"></span>
+        </div>
+        <div class="end-hour">
+            <span ng-bind="data.end"></span>
+            <i class="icon ion-arrow-left-b"></i>
+        </div>
+    </div>
 </section>
