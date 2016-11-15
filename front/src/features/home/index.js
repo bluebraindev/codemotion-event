@@ -1,7 +1,6 @@
 import route from './route';
 import service from './service';
 import Controller from './controller';
-import RoomComponent from './components/room';
 
 // import './event-details';
 import './room-events';
@@ -15,5 +14,4 @@ export default angular
     .config(route)
     .controller('HomeController', Controller)
     .service('$home', service)
-    .component('roomComponent', RoomComponent)
     .name;
