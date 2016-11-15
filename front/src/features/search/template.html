@@ -1,0 +1,23 @@
+<ion-content class="code-search">
+    <ion-header-bar align-title="center" class="search-header">
+        <select class="title">
+            <option value="Vie 18" selected>Vie 18</option>
+            <option value="Sat 19">Sat 19</option>
+        </select>
+    </ion-header-bar>
+    <ion-content>
+        <section class="search-bar">
+            <div class="search-item" ng-click="vm.openTimePicker(vm.startTime, 'Hora de Comienzo')">
+                <i class="icon ion-ios-time-outline"></i>
+                <input type="text" disabled ng-bind="vm.startTime">
+            </div>
+            <div class="search-item" ng-click="vm.openTimePicker(vm.endTime, 'Hora Fin')">
+                <i class="icon ion-ios-time-outline"></i>
+                <input type="text" disabled ng-bind="vm.endTime">
+            </div>
+        </section>
+        <section>
+            
+        </section>
+    </ion-content>
+</ion-content>

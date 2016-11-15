@@ -3,6 +3,8 @@ import controller from './controller'
 
 export default angular
 	.module('codemotion.search', [
+		'ionic',
+		'ionic-timepicker',
 		'ui.router'
 	])
 	.config(route)
