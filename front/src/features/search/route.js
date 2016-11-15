@@ -7,7 +7,8 @@ export default function InfoRoute($stateProvider) {
 			url: '/search',
 			views: {
 				'bodyView': {
-					templateUrl: "src/features/search/template.html"
+					templateUrl: "src/features/search/template.html",
+					controller: 'SearchController as vm'
 				}
 			}
 		})
