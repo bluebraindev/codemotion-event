@@ -1,5 +1,13 @@
-export default function EconomyController($scope, $state, $http, $home) {
+export default function EventDetailsController($scope, $state, $eventDetails) {
     'ngInject'
 
+    var vm = this;
     
+
+    init();
+
+
+    function init() {
+
+    }
 }
