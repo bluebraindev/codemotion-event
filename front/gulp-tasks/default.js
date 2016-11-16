@@ -1,4 +1,4 @@
 
 module.exports = function () { };
 
-module.exports.dependencies = ['compile', 'sass', 'libs', 'minimage', 'copy', 'templates'];
+module.exports.dependencies = ['compile', 'sass', 'libs', 'minimage', 'copy', 'templates', 'json'];
