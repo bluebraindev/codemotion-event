@@ -1,5 +1,6 @@
 export default function HomeController() {
     'ngInject'
+    
     var vm = this;
 
     init();

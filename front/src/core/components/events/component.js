@@ -1,7 +1,7 @@
 
 const component = {
     bindings: {
-        data: '>'
+        data: '<'
     },
     templateUrl: 'src/core/components/events/template.html'
 };

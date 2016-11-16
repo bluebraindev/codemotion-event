@@ -3,9 +3,9 @@ import Controller from './controller';
 import Service from './service';
 
 angular
-    .module('codemotion.home.room-events', [
+    .module('codemotion.home.event-details', [
         'ui.router',
     ])
     .config(route)
-    .controller('RoomEventsController', Controller)
-    .service('$roomEvents', Service);
+    .controller('EventDetailsController', Controller)
+    .service('$eventDetails', Service);
