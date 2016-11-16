@@ -6,7 +6,7 @@
         <div ng-repeat="room in vm.rooms track by $index">
             <div ng-if="$even" class="row">
                 <room-component class="col col-50" name="room.name"></room-component>
-                <room-component ng-if="vm.isDefinedRoom($index+1)" class="col col-50" name="vm.getNameFromRoom($index+1)"></room-component>
+                <room-component class="col col-50" name="vm.getNameFromRoom($index+1)"></room-component>
             </div>
         </div>
     </ion-content>
