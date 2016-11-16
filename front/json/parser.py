@@ -24,6 +24,7 @@ for date in dates:
         sala['id'] = track.get('id');
         sala['name'] = track.get('name');
         sala['slots'] = [];
+        sala['dayId'] = date.get('id');
 
         for slot in track['slots']:
             sala['slots'].append(slot.get('id'));
@@ -37,6 +38,7 @@ for date in dates:
             charla['trackId'] = slot.get('trackId');
             charla['startDate'] = '2016-11-' + str(momento) + ' ' + slot.get('start');
             charla['endDate'] = '2016-11-' + str(momento) + ' ' + slot.get('end');
+            charla['dayId'] = date.get('id');
             
             talks.append(charla);
         tracks.append(sala);
