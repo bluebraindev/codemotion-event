@@ -1,7 +1,9 @@
-import components from './components'
+import components from './components';
+import services from './services';
 
 export default angular
     .module('codemotion.core', [
-        components
+        components,
+        services
     ])
     .name;

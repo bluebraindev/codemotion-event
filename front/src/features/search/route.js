@@ -1,4 +1,5 @@
 export default function InfoRoute($stateProvider) {
+	'ngInject'
 
 	$stateProvider
 		.state('search', {
