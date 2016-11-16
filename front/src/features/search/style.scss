@@ -22,10 +22,13 @@
             flex-basis: 50%;
             color: $secondary-color;
 
-            input {
+            span {
                 background-color: transparent;
                 border-bottom: 1px solid $secondary-color;
                 width: 70%;
+                font-size: 1.3rem;
+                text-align: center;
+                padding: .5rem 0 0;
             }
             
             i {
@@ -38,7 +41,11 @@
 
 div.popup-container.ionic_timepicker_popup.popup-showing.active{
     .heading, .button_set, .button_close {
-        background-color: $primary-color; 
+        background-color: $primary-color;
+
+        &:active {
+            background-color: darken($primary-color, 10); 
+        }
     }
 
     .time_picker_arrows{

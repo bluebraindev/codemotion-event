@@ -1,26 +1,55 @@
-export default function SearchController(ionicTimePicker) {
+export default function SearchController(ionicTimePicker, $log, $agenda, $scope) {
     'ngInject'
     let vm = this;
-
     vm.openTimePicker = openTimePicker;
+    vm.update = update;
 
-    function openTimePicker(time, label) {
+    init();
+
+    function init() {
+        vm.startTime = moment().hour() + ':00';
+        vm.endTime = (moment().hour() + 1) + ':00';
+        $agenda.getDays().then(days => {
+            vm.days = days;
+            vm.selected = angular.copy(days[0]);
+            $agenda.getTalks().then(() => {
+                vm.talks = $agenda.getTalksByDate(days[0].date + ' ' + vm.startTime, days[0].date + ' ' + vm.endTime);
+            })
+        });
+
+    }
+
+    function openTimePicker(time, label, type) {
         let ipObj1 = {
-            callback: function (val) {      //Mandatory
+            callback: function (val) {
                 if (typeof (val) === 'undefined') {
-                    console.log('Time not selected');
+                    $log.info('Time not selected');
                 } else {
-                    var selectedTime = new Date(val * 1000);
-                    console.log('Selected epoch is : ', val, 'and the time is ', selectedTime.getUTCHours(), 'H :', selectedTime.getUTCMinutes(), 'M');
+                    let hour = parseInt(val / 3600, 10);
+                    let min = (val - hour * 3600) / 60 < 10 ? '0' + (val - hour * 3600) / 60 : (val - hour * 3600) / 60;
+                    time = moment(moment().format('YYYY-MM-DD').valueOf() + ' ' + hour + ':' + min).format('HH:mm');
+                    if ('start' === type) {
+                        vm.startTime = time;
+                    } else {
+                        vm.endTime = time;
+                    }
+
+                    $agenda.getTalks().then(() => {
+                        vm.talks = $agenda.getTalksByDate(vm.selected.date + ' ' + vm.startTime, vm.selected.date + ' ' + vm.endTime);
+                        $log.log(vm.talks);
+                    })
                 }
             },
-            inputTime: 50400,   //Optional
-            format: 24,         //Optional
-            step: 15,           //Optional
-            setLabel: 'OK'    //Optional
+            inputTime: moment(time, 'HH:mm').hour() * 3600 + moment(time, 'HH:mm').minute() * 60,
+            format: 24,
+            step: 15,
+            setLabel: 'OK'
         };
-
         ionicTimePicker.openTimePicker(ipObj1);
     };
+
+    function update(index) {
+        vm.selected = vm.days[index];
+    }
 
 }
