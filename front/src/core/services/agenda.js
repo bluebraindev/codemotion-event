@@ -1,13 +1,9 @@
-export default function AgendaService ($http){
+export default function AgendaService ($http, $q){
     'ngInject'
 
-    let days = $http.get('json/days.json').then(data => data);
-    let talks = $http.get('json/talks.json').then(data => data);
-    let tracks = $http.get('json/tracks.json').then(data => data);
-
-    let getDays = () => days;
-    let getTracks = () => tracks;
-    let getTalks = () => talks;
+    let days;
+    let talks;
+    let tracks;
 
     this.getDays = getDays;
     this.getTalks = getTalks;
@@ -18,6 +14,44 @@ export default function AgendaService ($http){
     this.getTracksByDay = getTracksByDay;
     this.getTalkById = getTalkById;
 
+    function getDays(){
+        let q = $q.defer();
+        if(!days){
+            $http.get('json/days.json').then(data => {
+                days = data.data;
+                q.resolve(days);
+            });
+        } else {
+            q.resolve(days);
+        }
+        return q.promise;
+    };
+
+    function getTracks(){
+        let q = $q.defer();
+        if(!tracks){
+            $http.get('json/tracks.json').then(data => {
+                tracks = data.data;
+                q.resolve(tracks);
+            });
+        } else {
+            q.resolve(tracks);
+        }
+        return q.promise;
+    };
+    
+    function getTalks(){
+        let q = $q.defer();
+        if(!talks){
+            $http.get('json/talks.json').then(data => {
+                talks = data.data;
+                q.resolve(talks);
+            });
+        } else {
+            q.resolve(talks);
+        }
+        return q.promise;
+    };
 
     function getTracksByDay(id){
         return tracks.filter(track => track.dayId === id);
@@ -37,12 +71,12 @@ export default function AgendaService ($http){
 
     function getTalksByDate(start, end){
         return talks.filter(talk => {
-            let startTalk = moment(talk.startDate).format('YYYY-MM-DD').valueOf();
-            let endTalk = moment(talk.endDate).format('YYYY-MM-DD').valueOf();
-            let startParse = moment(start).format('YYYY-MM-DD').valueOf();
-            let endParse = moment(end).format('YYYY-MM-DD').valueOf();
+            let startTalk = moment(talk.startDate).unix();
+            let endTalk = moment(talk.endDate).unix();
+            let startParse = moment(start).unix();
+            let endParse = moment(end).unix();
             
-            return startTalk >= startParse && endTalk >= endParse;
+            return startTalk >= startParse && endTalk <= endParse;
         });
     }
 }
