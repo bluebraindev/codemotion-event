@@ -1,4 +1,4 @@
-export default function RoomController($state, $timeout) {
+export default function RoomController($state, $timeout, $agenda) {
     'ngInject'
     var vm = this;
 
@@ -11,7 +11,8 @@ export default function RoomController($state, $timeout) {
     function goToDetails() {
         vm.stable = false;
         $timeout(() => {
-            $state.go('search');
+            $agenda.setIdFromTrack(vm.room.id);
+            $state.go('home.room-events');
         }, 150);
     }
 

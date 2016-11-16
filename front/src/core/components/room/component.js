@@ -2,7 +2,7 @@ import RoomController from './controller'
 
 const component = {
     bindings: {
-        name: '='
+        room: '='
     },
     templateUrl: 'src/core/components/room/template.html',
     controller: RoomController,
