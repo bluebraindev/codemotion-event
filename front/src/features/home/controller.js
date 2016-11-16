@@ -1,4 +1,4 @@
-export default function HomeController() {
+export default function HomeController($state) {
     'ngInject'
     var vm = this;
     vm.rooms = [
@@ -19,5 +19,5 @@ export default function HomeController() {
         }
     ];
 
-    
+    $state.go('home.room-events');    
 }

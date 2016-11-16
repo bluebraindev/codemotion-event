@@ -8,4 +8,4 @@ angular
     ])
     .config(route)
     .controller('RoomEventsController', Controller)
-    .service('$room-events', Service);
+    .service('$roomEvents', Service);
