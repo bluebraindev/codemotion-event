@@ -1,7 +1,8 @@
 export default function SearchController(ionicTimePicker) {
+    'ngInject'
     let vm = this;
 
-    vm.openTimepicker = openTimePicker;
+    vm.openTimePicker = openTimePicker;
 
     function openTimePicker(time, label) {
         let ipObj1 = {
@@ -14,9 +15,9 @@ export default function SearchController(ionicTimePicker) {
                 }
             },
             inputTime: 50400,   //Optional
-            format: 12,         //Optional
+            format: 24,         //Optional
             step: 15,           //Optional
-            setLabel: 'Set2'    //Optional
+            setLabel: 'OK'    //Optional
         };
 
         ionicTimePicker.openTimePicker(ipObj1);

@@ -34,5 +34,16 @@
             } 
         }
     }
+}
 
+div.popup-container.ionic_timepicker_popup.popup-showing.active{
+    .heading, .button_set, .button_close {
+        background-color: $primary-color; 
+    }
+
+    .time_picker_arrows{
+        .icon {
+            color: $primary-color;
+        }
+    }
 }
