@@ -5,12 +5,12 @@ export default function HomeController($agenda) {
 
     init();
     
-    vm.getNameFromRoom = getNameFromRoom;
+    vm.getRoom = getRoom;
 
     vm.rooms = [];
 
-    function getNameFromRoom(position) {
-        return vm.rooms[position].name;
+    function getRoom(position) {
+        return vm.rooms[position];
     }
 
     function init() {

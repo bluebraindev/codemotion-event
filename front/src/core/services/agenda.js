@@ -4,6 +4,7 @@ export default function AgendaService ($http, $q){
     let days;
     let talks;
     let tracks;
+    let idFromTrack;
 
     this.getDays = getDays;
     this.getTalks = getTalks;
@@ -13,6 +14,7 @@ export default function AgendaService ($http, $q){
     this.getTalksByTrack = getTalksByTrack;
     this.getTracksByDay = getTracksByDay;
     this.getTalkById = getTalkById;
+    this.setIdFromTrack = setIdFromTrack;
 
     function getDays(){
         let q = $q.defer();
@@ -53,23 +55,31 @@ export default function AgendaService ($http, $q){
         return q.promise;
     };
 
-    function getTracksByDay(id){
+    function setIdFromTrack(id) {
+        idFromTrack = id;
+    }
+
+    function getIdToRoomEvents() {
+        return idFromTrack;
+    }
+
+    function getTracksByDay(id) {
         return tracks.filter(track => track.dayId === id);
     }
 
-    function getTalksByDay(id){
+    function getTalksByDay(id) {
         return talks.filter(talk => talk.dayId === id);
     }
 
-    function getTalksByTrack(id){
+    function getTalksByTrack(id) {
         return talks.filter(talk => talk.trackId === id);
     }
 
-    function getTalkById(id){
+    function getTalkById(id) {
         return talks.filter(talk => talk.id === id);
     }
 
-    function getTalksByDate(start, end){
+    function getTalksByDate(start, end) {
         return talks.filter(talk => {
             let startTalk = moment(talk.startDate).unix();
             let endTalk = moment(talk.endDate).unix();

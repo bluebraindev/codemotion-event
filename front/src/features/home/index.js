@@ -1,5 +1,4 @@
 import route from './route';
-import service from './service';
 import Controller from './controller';
 
 import './room-events';
@@ -13,5 +12,4 @@ export default angular
     ])
     .config(route)
     .controller('HomeController', Controller)
-    .service('$home', service)
     .name;
