@@ -1,8 +1,13 @@
-<ion-content class="home">
-    <div ng-repeat="room in vm.rooms track by $index">
-        <div ng-if="$even" class="row">
-            <room-component class="col col-50" name="room.name"></room-component>
-            <room-component class="col col-50" name="vm.rooms[$index +1].name"></room-component>
+<ion-view class="home">
+    <ion-header-bar align-title="center" class="search-header">
+        <h1 class="title" ng-bind="vm.header"></h1>
+    </ion-header-bar>
+    <ion-content class="wrapper">
+        <div ng-repeat="room in vm.rooms track by $index">
+            <div ng-if="$even" class="row">
+                <room-component class="col col-50" name="room.name"></room-component>
+                <room-component ng-if="vm.isDefinedRoom($index+1)" class="col col-50" name="vm.getNameFromRoom($index+1)"></room-component>
+            </div>
         </div>
-    </div>
-</ion-content> 
+    </ion-content>
+</ion-view>

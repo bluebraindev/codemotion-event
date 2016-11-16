@@ -1,3 +1,5 @@
 <div class="room">
-    <span>{{vm.name}}</span>
+    <div class="common" ng-class="vm.doEffectOnClick()" ng-click="vm.goToDetails()">
+        <div class="track">{{vm.name}}</div>
+    </div>
 </div>

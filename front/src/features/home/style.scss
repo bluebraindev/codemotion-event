@@ -1,3 +1,14 @@
 .home{
-    
+    .search-header{
+        h1 {
+            width: 93%;
+            text-align: center;
+            background-color: transparent;
+            border: none;
+            color: $secondary-color;
+        } 
+    }  
+    .wrapper{
+        top: 44px;
+    }
 }

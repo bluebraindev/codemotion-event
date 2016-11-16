@@ -7,4 +7,5 @@ plugins/
 lib/
 www/build/
 www/fonts/
+www/json/
 reports/
