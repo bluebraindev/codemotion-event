@@ -17,6 +17,7 @@ for date in dates:
     day['name'] = date.get('name');
     day['date'] = '2016-11-' + str(momento);
     day['tracks'] = [];
+    day['talks'] = []
     for track in date['tracks']:
         day['tracks'].append(track.get('id'));
         sala = {};
@@ -26,6 +27,7 @@ for date in dates:
 
         for slot in track['slots']:
             sala['slots'].append(slot.get('id'));
+            day['talks'].append(slot.get('id'));
             charla = {};
             charla['id'] = slot.get('id');
             charla['start'] = slot.get('start');
