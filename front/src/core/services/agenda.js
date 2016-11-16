@@ -16,6 +16,7 @@ export default function AgendaService ($http){
     this.getTalksByDate = getTalksByDate;
     this.getTalksByTrack = getTalksByTrack;
     this.getTracksByDay = getTracksByDay;
+    this.getTalkById = getTalkById;
 
 
     function getTracksByDay(id){
@@ -28,6 +29,10 @@ export default function AgendaService ($http){
 
     function getTalksByTrack(id){
         return talks.filter(talk => talk.trackId === id);
+    }
+
+    function getTalkById(id){
+        return talks.filter(talk => talk.id === id);
     }
 
     function getTalksByDate(start, end){
