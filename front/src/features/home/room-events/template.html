@@ -13,7 +13,7 @@
     <ion-content scroll="true" class="content">
         <div class="room-content" ng-repeat="event in vm.events">
             <!--<code-event data="event"></code-event>-->
-            <div class="room">
+            <div class="room" ng-click="vm.goDetail(event)">
                 <div class="row-info">
                     <div class="column-info">
                         <img src="{{event.contents.authors[0].avatar}}" alt="">

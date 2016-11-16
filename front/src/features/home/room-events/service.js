@@ -83,7 +83,6 @@ export default function($state, $http, $q) {
                 }                
             });
 
-            console.log(slotsTrack);
             q.resolve(slotsTrack);
         }
 
