@@ -4,15 +4,15 @@
     </ion-header-bar>
     <ion-content class="wrapper">
         <div class="row">
-            <div class="col">
-                <span class="title">{{vm.eventDetail.contents.title}}</span>
-                <span class="start">{{vm.eventDetail.start}}</span>
-                <span class="end">{{vm.eventDetail.end}}</span>
-            </div>
+            <span class="title">{{vm.eventDetail.contents.title}}</span>
         </div>
         <div class="row">
-            <div class="col">
-                <span class="tags">{{vm.eventDetail.contents.tags}}</span>
+            <span class="hour">{{vm.eventDetail.start}}</span>
+            <span class="hour">{{vm.eventDetail.end}}</span>
+        </div>
+        <div class="col">
+            <div class="row" ng-repeat="tag in vm.tagsEvent">
+                <span class="tags">{{tag.toString()}}</span>                
             </div>
         </div>
         <div class="row">
@@ -20,17 +20,19 @@
                 <span class="description">{{vm.eventDetail.description}}</span>
             </div>
         </div>
-        <div>Author/s</div>
         <div class="row">
+            <span class="title">Author/es</span>
+        </div>
+        <div class="row" ng-repeat="author in vm.authors">
             <div class="col">
-                <img class="avatar" src="{{vm.eventDetail.contents.authors[0].avatar}}"/>
+                <img class="avatar" src="{{author.avatar}}" />
             </div>
-            <div class="col">
+            <div class="col col-90">
                 <div class="row">
-                    <span class="name">{{vm.eventDetail.contents.authors[0].name}}</span>
+                    <span class="name">{{author.name}}</span>
                 </div>
                 <div class="row">
-                    <span class="author-description">{{vm.eventDetail.contents.authors[0].description}}</span>
+                    <span class="author-description">{{author.description}}</span>
                 </div>
             </div>
         </div>
