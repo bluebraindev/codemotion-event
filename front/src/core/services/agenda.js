@@ -10,11 +10,12 @@ export default function AgendaService ($http, $q){
     this.getTalks = getTalks;
     this.getTracks = getTracks;
     this.getTalksByDay = getTalksByDay;
-    this.getTalksByDate = getTalksByDate;
+    this.getTalksByDate = getTalksByDate; 
     this.getTalksByTrack = getTalksByTrack;
     this.getTracksByDay = getTracksByDay;
     this.getTalkById = getTalkById;
     this.setIdFromTrack = setIdFromTrack;
+    this.getIdToRoomEvents = getIdToRoomEvents;
 
     function getDays(){
         let q = $q.defer();
