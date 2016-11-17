@@ -1,5 +1,4 @@
 export default function InfoRoute($stateProvider) {
-
 	$stateProvider
 		.state('info', {
 			parent: 'codemotion',
@@ -7,7 +6,8 @@ export default function InfoRoute($stateProvider) {
 			url: '/info',
 			views: {
                 'bodyView': {
-					templateUrl: "src/features/info/template.html"
+					templateUrl: "src/features/info/template.html",
+					controller: 'InfoController as vm'
 				}
 			}
 		})
