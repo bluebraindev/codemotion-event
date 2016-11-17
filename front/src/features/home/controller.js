@@ -17,7 +17,7 @@ export default function HomeController($agenda) {
         vm.header = 'Codemotion';
         $agenda.getTracks()
             .then((res) => {
-                res.data.forEach(justTracksToOrdinalDay)
+                res.forEach(justTracksToOrdinalDay)
             })
 
         function justTracksToOrdinalDay(track, index) {
