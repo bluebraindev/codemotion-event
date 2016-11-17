@@ -8,13 +8,15 @@
             border: none;
             color: $secondary-color;
         }
-    } 
+    }
+
+
     .search-bar{
-        order: 2;
         display: flex;
         flex-direction: row;
         padding: .5rem;
         background-color: $primary-color;
+        height: 3.2rem;
 
         .search-item{
             display: flex;
@@ -36,6 +38,9 @@
                 font-size: 1.5rem;
             } 
         }
+    }
+    .events-list{
+        margin-top: 3.4rem;
     }
 }
 
