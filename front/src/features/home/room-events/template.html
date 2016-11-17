@@ -4,22 +4,17 @@
             <option ng-repeat="room in vm.rooms track by ($index)">{{room.name}}</option>
         </select>
     </ion-header-bar>
-    <div class="bar bar-subheader">
-        <span ng-click="vm.getTalksByTrack('Track 2', 0)">Viernes</span>
-        <span ng-click="vm.getTalksByTrack('Track 3', 1)">Sábado</span>
+    <div class="bar bar-subheader tabs room-tabs">
+        <span ng-click="vm.tabClick('viernes')" ng-class="vm.tabs.viernes">Viernes</span>
+        <span ng-click="vm.tabClick('sabado')" ng-class="vm.tabs.sabado">Sábado</span>
     </div>
-    <ion-content class="content">
-        <ion-slides options="vm.options" slider="data.slider">
-            <ion-slide-page>
-                <div class="box blue">
-                    <h1>BLUE</h1>
-                </div>
-            </ion-slide-page>
-            <ion-slide-page>
-                <div class="box yellow">
-                    <h1>YELLOW</h1>
-                </div>
-            </ion-slide-page>
-        </ion-slides>
+    <ion-content class="room-content">
+        <ion-slide-box on-slide-changed="vm.onSlideChange($index)" show-pager="false">
+            <ion-slide>
+                <code-event ng-repeat="event in vm.vieTalks" data="event"></code-event>
+            </ion-slide>
+            <ion-slide>
+                <code-event ng-repeat="event in vm.satTalks" data="event"></code-event>
+            </ion-slide>
     </ion-content>
-</ion-view> 
+</ion-view>

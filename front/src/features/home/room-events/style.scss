@@ -9,7 +9,32 @@
             color: $secondary-color;
         } 
     }
-    .content{
+
+    .room-tabs {
+        
+        background-color: $primary-color;
+        box-sizing: inital;
+        border: none;
+        background-image: none;
+        padding: 0;
+
+        display: flex;
+        flex-direction: row;
+
+        .tab-item {
+            max-width: none;
+            flex-basis: 50%; 
+            color: $secondary-color;
+            font-size: 1.2rem;
+            border-bottom: 1px solid $secondary-color;
+        };
+
+        .active {
+            @extend .tab-item;
+            border-bottom: 5px solid $secondary-color;    
+        };
+    }
+    .room-content{
         margin-top: 3.2rem;
         .box{
             background-color: white; 

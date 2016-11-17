@@ -1,4 +1,4 @@
-export default function AgendaService ($http, $q){
+export default function AgendaService($http, $q) {
     'ngInject'
 
     let days;
@@ -11,7 +11,7 @@ export default function AgendaService ($http, $q){
     this.getTalks = getTalks;
     this.getTracks = getTracks;
     this.getTalksByDay = getTalksByDay;
-    this.getTalksByDate = getTalksByDate; 
+    this.getTalksByDate = getTalksByDate;
     this.getTalksByTrack = getTalksByTrack;
     this.getTracksByDay = getTracksByDay;
     this.getDayByName = getDayByName;
@@ -20,43 +20,41 @@ export default function AgendaService ($http, $q){
     this.getIdToRoomEvents = getIdToRoomEvents;
     this.setEventId = setEventId;
     this.getEventId = getEventId;
+    this.getTalksByDayAndTrack = getTalksByDayAndTrack;
+    this.getTrackById = getTrackById;
+    this.getTracksByName = getTracksByName;
+    this.getTrackByDayAndName = getTrackByDayAndName;
 
-    function getDays(){
+    function getDays() {
         let q = $q.defer();
-        if(!days){
-            $http.get('json/days.json').then(data => {
-                days = data.data;
-                q.resolve(days);
-            });
-        } else {
+
+        $http.get('json/days.json').then(data => {
+            days = data.data;
             q.resolve(days);
-        }
+        });
+
         return q.promise;
     };
 
-    function getTracks(){
+    function getTracks() {
         let q = $q.defer();
-        if(!tracks){
-            $http.get('json/tracks.json').then(data => {
-                tracks = data.data;
-                q.resolve(tracks);
-            });
-        } else {
+
+        $http.get('json/tracks.json').then(data => {
+            tracks = data.data;
             q.resolve(tracks);
-        }
+        });
+
         return q.promise;
     };
-    
-    function getTalks(){
+
+    function getTalks() {
         let q = $q.defer();
-        if(!talks){
-            $http.get('json/talks.json').then(data => {
-                talks = data.data;
-                q.resolve(talks);
-            });
-        } else {
+
+        $http.get('json/talks.json').then(data => {
+            talks = data.data;
             q.resolve(talks);
-        }
+        });
+
         return q.promise;
     };
 
@@ -80,6 +78,18 @@ export default function AgendaService ($http, $q){
         return tracks.filter(track => track.dayId === id);
     }
 
+    function getTrackById(id) {
+        return tracks.filter(track => track.id === id);
+    }
+
+    function getTracksByName(name) {
+        return tracks.filter(track => track.name === name);
+    }
+
+    function getTrackByDayAndName(id, name) {
+        return tracks.filter(track => track.dayId === id && track.name === name);
+    }
+
     function getTalksByDay(id) {
         return talks.filter(talk => talk.dayId === id);
     }
@@ -92,7 +102,11 @@ export default function AgendaService ($http, $q){
         return talks.filter(talk => talk.id === id);
     }
 
-    function getDayByName(name){
+    function getTalksByDayAndTrack(day, track) {
+        return talks.filter(talk => talk.trackId === track && talk.dayId === day);
+    }
+
+    function getDayByName(name) {
         return days.filter(day => day.name === name);
     }
 
@@ -102,7 +116,7 @@ export default function AgendaService ($http, $q){
             let endTalk = moment(talk.endDate).unix();
             let startParse = moment(start).unix();
             let endParse = moment(end).unix();
-            
+
             return startTalk >= startParse && endTalk <= endParse;
         });
     }
