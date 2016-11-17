@@ -71,7 +71,7 @@
                 ]
             },
             "title":"Programaci\u00f3n defensiva y sistemas resilientes en el mundo real",
-            "totalLikes":132,
+            "totalLikes":183,
             "totalVotes":16,
             "type":"TALK"
         },
@@ -127,7 +127,7 @@
                 ]
             },
             "title":"Lessons learnt trying to deploy Docker in production",
-            "totalLikes":80,
+            "totalLikes":117,
             "totalVotes":20,
             "type":"TALK"
         },
@@ -213,7 +213,7 @@
                 ]
             },
             "title":"8 formas de mejorar tu vida gracias a los Logs",
-            "totalLikes":97,
+            "totalLikes":143,
             "totalVotes":15,
             "type":"TALK"
         },
@@ -281,7 +281,7 @@
                 ]
             },
             "title":"M\u00e9tricas: lo bueno, lo feo y lo malo",
-            "totalLikes":80,
+            "totalLikes":118,
             "totalVotes":25,
             "type":"TALK"
         },
@@ -353,7 +353,7 @@
                 ]
             },
             "title":"Dockeriza tus aplicaciones Java",
-            "totalLikes":78,
+            "totalLikes":108,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -409,7 +409,7 @@
                 ]
             },
             "title":"99 l\u00edneas que lo simplifican todo",
-            "totalLikes":80,
+            "totalLikes":109,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -468,7 +468,7 @@
                 ]
             },
             "title":"Todo lo que necesitas saber a la hora de dise\u00f1ar RESTful APIs.",
-            "totalLikes":155,
+            "totalLikes":217,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -542,7 +542,7 @@
                     "uuid":"smorcuende"
                 },
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/5655417380143104-faf68835",
+                    "avatar":"https://storage.googleapis.com/k-avatars/5655417380143104-fae21cde",
                     "description":"Fil\u00f3loga y programadora entusiasta. Pythonista y Pylady. Aprendiz de todo y maestra de nada. Lady Yamila de Sealand",
                     "feedback":{
                         "entriesCount":0,
@@ -590,7 +590,7 @@
                 ]
             },
             "title":"Los androides no sue\u00f1an con ovejas el\u00e9ctricas; sue\u00f1an con conciliar",
-            "totalLikes":49,
+            "totalLikes":66,
             "totalVotes":14,
             "type":"TALK"
         },
@@ -645,7 +645,7 @@
                 ]
             },
             "title":"Serverless mobile applications with Firebase",
-            "totalLikes":58,
+            "totalLikes":88,
             "totalVotes":8,
             "type":"TALK"
         },
@@ -715,7 +715,7 @@
                 ]
             },
             "title":"From pets to cattle, the way of Kubernetes",
-            "totalLikes":49,
+            "totalLikes":65,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -771,7 +771,7 @@
                 ]
             },
             "title":"Desarrollo modular basado en componentes",
-            "totalLikes":74,
+            "totalLikes":117,
             "totalVotes":20,
             "type":"TALK"
         },
@@ -857,7 +857,7 @@
                 ]
             },
             "title":"Bots, Bots everywhere",
-            "totalLikes":48,
+            "totalLikes":87,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -913,7 +913,7 @@
                 ]
             },
             "title":"Pan para hoy y pan para ma\u00f1ana con Kubernetes",
-            "totalLikes":45,
+            "totalLikes":64,
             "totalVotes":14,
             "type":"TALK"
         },
@@ -968,7 +968,7 @@
                 ]
             },
             "title":"De la idea a producci\u00f3n. Paso a paso. Caso a caso",
-            "totalLikes":47,
+            "totalLikes":73,
             "totalVotes":14,
             "type":"TALK"
         },
@@ -1080,7 +1080,7 @@
                 ]
             },
             "title":"Android Testing en profundidad",
-            "totalLikes":39,
+            "totalLikes":62,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -1135,7 +1135,7 @@
                 ]
             },
             "title":"Decorando JavaScript",
-            "totalLikes":74,
+            "totalLikes":96,
             "totalVotes":15,
             "type":"TALK"
         },
@@ -1208,7 +1208,7 @@
                 ]
             },
             "title":"Living on the Edge (Service): Bundling Microservices to Optimize for Devices",
-            "totalLikes":42,
+            "totalLikes":57,
             "totalVotes":7,
             "type":"TALK"
         },
@@ -1264,7 +1264,7 @@
                 ]
             },
             "title":"Intraemprendimiento para frikis",
-            "totalLikes":19,
+            "totalLikes":32,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -1282,15 +1282,15 @@
         "contents":{
             "authors":[
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/58294010-712268fe",
+                    "avatar":"https://storage.googleapis.com/k-avatars/37444001-a2e67c85",
                     "description":"Emprendedor con mas de 10 a\u00f1os de diversi\u00f3n en tecnolog\u00eda.\nAutor, wannabe emprendedor social y dispuesto a afrontar cualquier tipo de conversaci\u00f3n si hay cerveza delante. \n\u2014\nActualmente VP Engineering @ Noa. \nCo-Fundador & Head of Tech @ Momenta. \nGoogle Authorized Trainer & Google Developer Expert.",
                     "feedback":{
-                        "entriesCount":0,
-                        "ratingAverage":0.0
+                        "entriesCount":35,
+                        "ratingAverage":4.71
                     },
-                    "id":58294010,
-                    "name":"Jose L Ugia Gonzalez",
-                    "uuid":"joseluisugia1"
+                    "id":37444001,
+                    "name":"Jose L Ugia",
+                    "uuid":"joseluisugia"
                 }
             ],
             "creationDate":1477005466030,
@@ -1319,7 +1319,7 @@
                 ]
             },
             "title":"Contenedme o no s\u00e9 lo que le hago",
-            "totalLikes":31,
+            "totalLikes":44,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -1389,7 +1389,7 @@
                 ]
             },
             "title":"Una historia sobre Clean Architecture con Ruby",
-            "totalLikes":27,
+            "totalLikes":37,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -1444,7 +1444,7 @@
                 ]
             },
             "title":"Animaciones SVG",
-            "totalLikes":46,
+            "totalLikes":65,
             "totalVotes":14,
             "type":"TALK"
         },
@@ -1488,8 +1488,8 @@
                     "Intermediate"
                 ],
                 "Technology":[
-                    "Mobile",
                     "Other",
+                    "Mobile",
                     "Games"
                 ],
                 "Type of Proposal":[
@@ -1497,7 +1497,7 @@
                 ]
             },
             "title":"Bienvenidos al mundo hologr\u00e1fico, desarrollando para HoloLens",
-            "totalLikes":35,
+            "totalLikes":52,
             "totalVotes":25,
             "type":"TALK"
         },
@@ -1597,7 +1597,7 @@
                 ]
             },
             "title":"Machine Learning fuera del lab",
-            "totalLikes":50,
+            "totalLikes":68,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -1665,7 +1665,7 @@
                 ]
             },
             "title":"PWA (progressive web apps) con Polymer",
-            "totalLikes":72,
+            "totalLikes":101,
             "totalVotes":15,
             "type":"TALK"
         },
@@ -1736,7 +1736,7 @@
                 ]
             },
             "title":"Arquitecturas funcionales: m\u00e1s all\u00e1 de las lambdas",
-            "totalLikes":73,
+            "totalLikes":105,
             "totalVotes":6,
             "type":"TALK"
         },
@@ -1755,7 +1755,7 @@
             "authors":[
                 {
                     "avatar":"https://storage.googleapis.com/k-avatars/75494004-d871d112",
-                    "description":"Pablo Magaz es el l\u00edder del Centro Experto de Arquitectura Javascript en atSistemas.\nEntusiasta tecnol\u00f3gico con m\u00e1s de 14 a\u00f1os de experiencia a sus espaldas con m\u00faltiples tecnolog\u00edas openSource, en los \u00faltimos a\u00f1os se ha especializado en el bullicioso mundo de Javascript y su amplio ecosistema. Javascripter declarado,  ha dise\u00f1ado y participado en proyectos con frameworks como Angular, Polymer, React, NodeJs  y es el principal impulsor de la plataforma de desarrollo Open Source de atSistemas: Base.\n",
+                    "description":"Pablo Magaz es el l\u00edder del Centro Experto de Arquitectura Javascript en atSistemas.\nEntusiasta tecnol\u00f3gico con m\u00e1s de 14 a\u00f1os de experiencia a sus espaldas con m\u00faltiples tecnolog\u00edas openSource, en los \u00faltimos a\u00f1os se ha especializado en el bullicioso mundo de Javascript y su amplio ecosistema. Javascripter declarado, \u00a0ha dise\u00f1ado y participado en proyectos con frameworks como Angular, Polymer, React, NodeJs \u00a0y es el principal impulsor de la plataforma de desarrollo Open Source de atSistemas: Base.\n",
                     "feedback":{
                         "entriesCount":1,
                         "ratingAverage":5.0
@@ -1791,7 +1791,7 @@
                 ]
             },
             "title":"Aplicaciones Isomorficas con React",
-            "totalLikes":70,
+            "totalLikes":100,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -1825,7 +1825,7 @@
             "authors":[
                 {
                     "avatar":"https://storage.googleapis.com/k-avatars/35334001-11b63ecd",
-                    "description":"Arquitecto Big Data en Stratio y certifcado en Spark. He desarrollado y puesto en producci\u00f3n diversos proyectos con tecnolog\u00edas Big Data.\n\n@jlopezmalla",
+                    "description":"Arquitecto Big Data en Stratio y certifcado en Spark. He desarrollado y puesto en producci\u00f3n diversos proyectos con tecnolog\u00edas Big Data.\n\n@jorgelopezmalla",
                     "feedback":{
                         "entriesCount":4,
                         "ratingAverage":4.25
@@ -1842,6 +1842,7 @@
                 "ratingAverage":0.0
             },
             "id":4875536748773376,
+            "slidesUrl":"http://es.slideshare.net/JorgeLopezMalla/codemotion-2016",
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
@@ -1861,7 +1862,7 @@
                 ]
             },
             "title":"Como hacer optimo un proyecto Big Data y no morir en el intento",
-            "totalLikes":47,
+            "totalLikes":71,
             "totalVotes":3,
             "type":"TALK"
         },
@@ -1917,7 +1918,7 @@
                 ]
             },
             "title":"Big Data para Javeros con Apache Flink",
-            "totalLikes":50,
+            "totalLikes":68,
             "totalVotes":13,
             "type":"TALK"
         },
@@ -1947,7 +1948,7 @@
                 }
             ],
             "creationDate":1464879249336,
-            "description":"**TypeScript** es un lenguaje de programaci\u00f3n cuyo principal objetivo es a\u00f1adir **tipos est\u00e1ticos a JavaScript**. Es decir, no inventa nada nuevo, y lo \u00fanico que hace es **contaminar la pureza** de JS. TS **potencia el uso de clases**, haciendo que la programaci\u00f3n sea parecida a **Java** o C#. Estos detalles hacen que **programadores torpes como yo** estemos interesados en este lenguaje, porque con su ayuda a lo mejor nos atrevemos a programar **web frontend** (dentro de nuestras limitaciones). Si eres de los que **han visto la luz**, amas **JS** y te encanta su **versatilidad**, no pierdas el tiempo con TS, s\u00f3lo encontrar\u00e1s un lenguaje **aburrido** como los de antes.",
+            "description":"**TypeScript** es un lenguaje de programaci\u00f3n cuyo principal objetivo es a\u00f1adir **tipos est\u00e1ticos a JavaScript**. Es decir, no inventa nada nuevo, y lo \u00fanico que hace es **contaminar la pureza** de JS. TS **potencia el uso de clases**, haciendo que la programaci\u00f3n sea parecida a **Java** o C#. Estos detalles hacen que **programadores torpes como yo** estemos interesados en este lenguaje, porque con su ayuda a lo mejor nos atrevemos a programar **web frontend** (dentro de nuestras limitaciones). Si eres de los que **han visto la luz**, amas **JS** y te encanta su **versatilidad**, no pierdas el tiempo con TS, s\u00f3lo encontrar\u00e1s un lenguaje **aburrido** como los de antes.\n\nPuedes descargar las slides de la presentaci\u00f3n en: http://www.slideshare.net/micaelgallego/typescript-un-lenguaje-aburrido-para-programadores-torpes-y-tristes",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -1972,7 +1973,7 @@
                 ]
             },
             "title":"TypeScript: Un lenguaje aburrido para programadores torpes y tristes",
-            "totalLikes":49,
+            "totalLikes":63,
             "totalVotes":13,
             "type":"TALK"
         },
@@ -2073,7 +2074,7 @@
                 ]
             },
             "title":"Gestiona tus propias dependencias con NuGet + Visual Studio Team Services vs MyGet",
-            "totalLikes":12,
+            "totalLikes":17,
             "totalVotes":14,
             "type":"TALK"
         },
@@ -2128,7 +2129,7 @@
                 ]
             },
             "title":"Deep learning image classification aplicado al mundo de la moda",
-            "totalLikes":44,
+            "totalLikes":62,
             "totalVotes":31,
             "type":"TALK"
         },
@@ -2161,7 +2162,7 @@
         "contents":{
             "authors":[
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/5741256864956416-2f445994",
+                    "avatar":"https://storage.googleapis.com/k-avatars/5741256864956416-528a24a7",
                     "description":"(@rafbermudez) Gallego y ca\u00f3tico so\u00f1ador. Ingeniero Inform\u00e1tico y Programa Executive en ADE.\n\nHe tenido la suerte de poder conocer y desarrollarme profesionalmente en m\u00faltiples \u00e1mbitos: Programador en UDC y consultor\u00eda, Director de desarrollo en Yump, I+D+i en Otogami, Arquitecto de Softare en ETS, CPO en HomeSelect. Actualmente CTO en Grupo Aluman.\n\nVivo pegado al c\u00f3digo y resuelvo problemas extremos en InfiniteMonkeys",
                     "feedback":{
                         "entriesCount":56,
@@ -2199,7 +2200,7 @@
                 ]
             },
             "title":"Dart como alternativa a Typescript",
-            "totalLikes":25,
+            "totalLikes":41,
             "totalVotes":15,
             "type":"TALK"
         },
@@ -2250,7 +2251,7 @@
                 ]
             },
             "title":"Microbenchmarking con JMH: cuando cada ciclo de reloj cuenta",
-            "totalLikes":23,
+            "totalLikes":38,
             "totalVotes":8,
             "type":"TALK"
         },
@@ -2314,17 +2315,17 @@
                     "Advanced"
                 ],
                 "Technology":[
-                    "Web",
                     "Cloud",
-                    "Other",
-                    "DevOps"
+                    "Web",
+                    "DevOps",
+                    "Other"
                 ],
                 "Type of Proposal":[
                     "Workshop"
                 ]
             },
             "title":"Desde el hierro hasta el PAAS pasando por el IAAS",
-            "totalLikes":16,
+            "totalLikes":22,
             "totalVotes":1,
             "type":"TALK"
         },
@@ -2390,7 +2391,7 @@
                 ]
             },
             "title":"Da real fragmentation explained",
-            "totalLikes":20,
+            "totalLikes":38,
             "totalVotes":6,
             "type":"TALK"
         },
@@ -2408,7 +2409,7 @@
         "contents":{
             "authors":[
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/71644001-69361d7c",
+                    "avatar":"https://storage.googleapis.com/k-avatars/71644001-5f30cefa",
                     "description":"F\u00e9lix L\u00f3pez is currently the Director of Engineering @ShuttleCloud, an American-based startup, the technology of which is used by institutions such as Stanford and Harvard, and companies such as Google, Comcast, TimeWarner.\nHe started his career in web development before moving to software in the currency exchange market. Later, he spent four years doing an IDE to develop games for hundreds of different mobile device OS variations, after that, he spent two years working on applications with sensor networks, Arduino, ZigBee and custom hardware. He is interested in Distributed Systems and Machine Learning and Clojure\n@flopezluis",
                     "feedback":{
                         "entriesCount":0,
@@ -2439,8 +2440,8 @@
                     "Intermediate"
                 ],
                 "Technology":[
-                    "Cloud",
                     "SQL and NoSQL",
+                    "Cloud",
                     "Other"
                 ],
                 "Type of Proposal":[
@@ -2448,7 +2449,7 @@
                 ]
             },
             "title":"Gossip Protocols. Failure Detection, sharing state and other common tasks in Distributed systems. ",
-            "totalLikes":20,
+            "totalLikes":25,
             "totalVotes":15,
             "type":"TALK"
         },
@@ -2548,7 +2549,7 @@
                 ]
             },
             "title":"Ara\u00f1as, Webbots y Scrapers con Geb",
-            "totalLikes":40,
+            "totalLikes":63,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -2600,7 +2601,7 @@
                 ]
             },
             "title":"Geospatial Graphs made easy with OrientDB",
-            "totalLikes":10,
+            "totalLikes":18,
             "totalVotes":1,
             "type":"TALK"
         },
@@ -2667,15 +2668,15 @@
                 "Technology":[
                     "Agile and Lean",
                     "Web",
-                    "Other",
-                    "Mobile"
+                    "Mobile",
+                    "Other"
                 ],
                 "Type of Proposal":[
                     "Talk"
                 ]
             },
             "title":"\u00bfPueden designers trabajar en una tribu Scrum?: C\u00f3mo integrar UX en tus Sprints de Producto",
-            "totalLikes":29,
+            "totalLikes":55,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -2730,7 +2731,7 @@
                 ]
             },
             "title":"ASP.NET Core 1.0: Desarrollo y ejecuci\u00f3n de aplicaciones ASP.NET MVC en entornos Linux",
-            "totalLikes":8,
+            "totalLikes":11,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -2801,7 +2802,7 @@
                 ]
             },
             "title":"SQL Server 2016: Novedades para desarrolladores",
-            "totalLikes":10,
+            "totalLikes":16,
             "totalVotes":9,
             "type":"TALK"
         },
@@ -2832,13 +2833,14 @@
                 },
                 {
                     "avatar":"https://storage.googleapis.com/k-avatars/67974004-d7e0f240",
-                    "description":"Desarrollador de iOS en idealista, apasionado de Swift\n\n@molmedoc",
+                    "description":"Desarrollador de iOS en idealista desde hace dos a\u00f1os. Autodidacta de todo lo que puedo y apasionado de Swift desde el primer momento que fue anunciado. Sufridor por excelencia de los cambios de Swift a los largos de los a\u00f1os. El ser un early adopter de muchas tecnolog\u00edas al final me ha pasado factura pero as\u00ed es mucho m\u00e1s divertido; nunca sabes con que te sorprender\u00e1n ",
                     "feedback":{
                         "entriesCount":0,
                         "ratingAverage":0.0
                     },
                     "id":67974004,
                     "name":"Miguel Olmedo",
+                    "twitterAccount":"molmedoc",
                     "uuid":"kape70"
                 }
             ],
@@ -2849,6 +2851,7 @@
                 "ratingAverage":0.0
             },
             "id":5740627450920960,
+            "slidesUrl":"http://www.slideshare.net/idealistacreamcode/swift-migration-the-true-history-69197721",
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
@@ -2867,8 +2870,8 @@
                     "Talk"
                 ]
             },
-            "title":"Swift's migration, the true story",
-            "totalLikes":13,
+            "title":"Swift's migration. The true story",
+            "totalLikes":28,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -2924,7 +2927,7 @@
                 ]
             },
             "title":"2D zombies survival game",
-            "totalLikes":14,
+            "totalLikes":30,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -3025,7 +3028,7 @@
                 ]
             },
             "title":"The Java and the Furious: c\u00f3mo medir la velocidad de tu c\u00f3digo Java con JMX",
-            "totalLikes":50,
+            "totalLikes":68,
             "totalVotes":6,
             "type":"TALK"
         },
@@ -3076,7 +3079,7 @@
                 ]
             },
             "title":"Teletrabajo en el mundo real",
-            "totalLikes":80,
+            "totalLikes":112,
             "totalVotes":19,
             "type":"TALK"
         },
@@ -3146,7 +3149,7 @@
                 ]
             },
             "title":"PostCSS. The treasure map",
-            "totalLikes":62,
+            "totalLikes":86,
             "totalVotes":19,
             "type":"TALK"
         },
@@ -3202,7 +3205,7 @@
                 ]
             },
             "title":"C\u00f3mo crear arquitecturas resilientes con microservicios y agentes",
-            "totalLikes":66,
+            "totalLikes":89,
             "totalVotes":18,
             "type":"TALK"
         },
@@ -3272,7 +3275,7 @@
                 ]
             },
             "title":"Testing NodeJS Security",
-            "totalLikes":44,
+            "totalLikes":63,
             "totalVotes":8,
             "type":"TALK"
         },
@@ -3309,6 +3312,7 @@
                 "ratingAverage":0.0
             },
             "id":5634263223369728,
+            "slidesUrl":"https://speakerdeck.com/taikson/el-lado-turbio-del-internet-of-things-y-que-podemos-hacer-los-makers-al-respecto",
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
@@ -3321,8 +3325,8 @@
                     "Intermediate"
                 ],
                 "Technology":[
-                    "Cloud",
                     "Web",
+                    "Cloud",
                     "Internet of Things"
                 ],
                 "Type of Proposal":[
@@ -3330,7 +3334,7 @@
                 ]
             },
             "title":"El lado turbio del Internet of Things, y qu\u00e9 podemos hacer los makers al respecto",
-            "totalLikes":50,
+            "totalLikes":76,
             "totalVotes":9,
             "type":"TALK"
         },
@@ -3381,7 +3385,7 @@
                 ]
             },
             "title":"De cero a cien con Kotlin",
-            "totalLikes":50,
+            "totalLikes":64,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -3484,7 +3488,7 @@
                 ]
             },
             "title":"Cacahuetes y monos digitales o sobre como sobrevivir a las 6Ds ",
-            "totalLikes":31,
+            "totalLikes":41,
             "totalVotes":13,
             "type":"TALK"
         },
@@ -3502,7 +3506,7 @@
         "contents":{
             "authors":[
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/5741256864956416-2f445994",
+                    "avatar":"https://storage.googleapis.com/k-avatars/5741256864956416-528a24a7",
                     "description":"(@rafbermudez) Gallego y ca\u00f3tico so\u00f1ador. Ingeniero Inform\u00e1tico y Programa Executive en ADE.\n\nHe tenido la suerte de poder conocer y desarrollarme profesionalmente en m\u00faltiples \u00e1mbitos: Programador en UDC y consultor\u00eda, Director de desarrollo en Yump, I+D+i en Otogami, Arquitecto de Softare en ETS, CPO en HomeSelect. Actualmente CTO en Grupo Aluman.\n\nVivo pegado al c\u00f3digo y resuelvo problemas extremos en InfiniteMonkeys",
                     "feedback":{
                         "entriesCount":56,
@@ -3541,8 +3545,8 @@
                     "Talk"
                 ]
             },
-            "title":"Construye tus propios bots o c\u00f3mo constur\u00edr un bot para que de una charla contigo",
-            "totalLikes":67,
+            "title":"Construye tus propios bots o c\u00f3mo constru\u00edr un bot para que de una charla contigo",
+            "totalLikes":102,
             "totalVotes":17,
             "type":"TALK"
         },
@@ -3593,6 +3597,7 @@
                 "ratingAverage":0.0
             },
             "id":5661660282880000,
+            "slidesUrl":"https://drive.google.com/file/d/0B8eUoG86GOlcOHpETU1TaHcwWXM/view?usp=sharing",
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
@@ -3613,7 +3618,7 @@
                 ]
             },
             "title":"Mant\u00e9n tus datos \u00e1giles con event-sourcing",
-            "totalLikes":28,
+            "totalLikes":46,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -3668,7 +3673,7 @@
                 ]
             },
             "title":"Ingenier\u00eda inversa de videojuegos con JavaScript",
-            "totalLikes":48,
+            "totalLikes":83,
             "totalVotes":26,
             "type":"TALK"
         },
@@ -3738,7 +3743,7 @@
                 ]
             },
             "title":"Aprender a distinguir el problema de la soluci\u00f3n",
-            "totalLikes":58,
+            "totalLikes":113,
             "totalVotes":19,
             "type":"TALK"
         },
@@ -3790,7 +3795,7 @@
                 ]
             },
             "title":"Maxima productividad con Tmux + Vim",
-            "totalLikes":37,
+            "totalLikes":49,
             "totalVotes":1,
             "type":"TALK"
         },
@@ -3849,7 +3854,7 @@
                 ]
             },
             "title":"PostgreSQL vs Mongo: benchmarking",
-            "totalLikes":31,
+            "totalLikes":46,
             "totalVotes":23,
             "type":"TALK"
         },
@@ -3924,12 +3929,13 @@
                 }
             ],
             "creationDate":1466755773518,
-            "description":"A muchos la generaci\u00f3n de c\u00f3digo nos hab\u00eda parecido poco m\u00e1s que brujer\u00eda o magia negra. Los que hemos usado librer\u00edas como [Dagger 2](http://google.github.io/dagger/) (framework de inyecci\u00f3n de dependencias en Java) o [Butterknife](http://jakewharton.github.io/butterknife/) (librer\u00eda para hacer bindigs de Views en Android) nos hemos maravillado ante la sabidur\u00eda de una librer\u00eda que entiende nuestro c\u00f3digo.\n\nCon este workshop aprenderemos las bases de la generaci\u00f3n de c\u00f3digo en tiempo de compilaci\u00f3n. Entenderemos a partir de qu\u00e9 punto acaba la magia y empieza la potencia del software. Para ello desarrollaremos una versi\u00f3n simplificada de la librer\u00eda [MagicBuilder](https://github.com/AlbertoSH/MagicBuilder)\n\nLa generaci\u00f3n de c\u00f3digo tiene una barrera: podemos generar todos los .java que queramos pero no podemos modificar los .java ya escritos por el programador. Como bonus track veremos la forma de romper esa barrera con lo que nuestras librer\u00edas se convierten en un desarrollador m\u00e1s. El m\u00e9todo consiste en la inyecci\u00f3n de nuevos nodos en el \u00e1rbol AST del compilador de Java. Nuestro ejemplo consistir\u00e1 en desarrollar una anotaci\u00f3n que permita mostrar por consola el tiempo consumido por un m\u00e9todo\n\nPara el desarrollo de este taller es recomendable tener un IDE configurado para compilar y ejecutar Java 8 y Gradle. En los pr\u00f3ximos d\u00edas se publicar\u00e1 un repositorio de Github que es recomendable traer clonado",
+            "description":"A muchos la generaci\u00f3n de c\u00f3digo nos hab\u00eda parecido poco m\u00e1s que brujer\u00eda o magia negra. Los que hemos usado librer\u00edas como [Dagger 2](http://google.github.io/dagger/) (framework de inyecci\u00f3n de dependencias en Java) o [Butterknife](http://jakewharton.github.io/butterknife/) (librer\u00eda para hacer bindigs de Views en Android) nos hemos maravillado ante la sabidur\u00eda de una librer\u00eda que entiende nuestro c\u00f3digo.\n\nCon este workshop aprenderemos las bases de la generaci\u00f3n de c\u00f3digo en tiempo de compilaci\u00f3n. Entenderemos a partir de qu\u00e9 punto acaba la magia y empieza la potencia del software. Para ello desarrollaremos una versi\u00f3n simplificada de la librer\u00eda [MagicBuilder](https://github.com/AlbertoSH/MagicBuilder)\n\nLa generaci\u00f3n de c\u00f3digo tiene una barrera: podemos generar todos los .java que queramos pero no podemos modificar los .java ya escritos por el programador. Como bonus track veremos la forma de romper esa barrera con lo que nuestras librer\u00edas se convierten en un desarrollador m\u00e1s. El m\u00e9todo consiste en la inyecci\u00f3n de nuevos nodos en el \u00e1rbol AST del compilador de Java. Nuestro ejemplo consistir\u00e1 en desarrollar una anotaci\u00f3n que permita mostrar por consola el tiempo consumido por un m\u00e9todo\n\nPara el desarrollo de este taller es recomendable tener un IDE configurado para compilar y ejecutar Java 8 y Gradle. Es recomendable que os clon\u00e9is [el repo](https://github.com/AlbertoSH/GeneracionInyeccionDemo) y lo ejecut\u00e9is antes de venir para que se os bajen las dependencias necesarias.",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
             },
             "id":5764529581457408,
+            "slidesUrl":"http://es.slideshare.net/AlbertoSanzHerrero/quita-que-t-no-sabes-ya-lo-hago-yo-generacin-e-inyeccin-de-cdigo-en-tiempo-de-compilacin",
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
@@ -3939,7 +3945,7 @@
                     "Spanish"
                 ],
                 "Level":[
-                    "Intermediate"
+                    "Advanced"
                 ],
                 "Technology":[
                     "Other"
@@ -3949,7 +3955,7 @@
                 ]
             },
             "title":"Quita, que t\u00fa no sabes; ya lo hago yo: Generaci\u00f3n e inyecci\u00f3n de c\u00f3digo en tiempo de compilaci\u00f3n",
-            "totalLikes":20,
+            "totalLikes":26,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -3982,7 +3988,7 @@
         "contents":{
             "authors":[
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/62654002-ffe4425d",
+                    "avatar":"https://storage.googleapis.com/k-avatars/62654002-438c2c2d",
                     "description":"https://linkedin.com/in/cvgarcia",
                     "feedback":{
                         "entriesCount":0,
@@ -4001,7 +4007,7 @@
                 }
             ],
             "creationDate":1466371449746,
-            "description":"Rompe la barrera que te encuentras al montar un proyecto desde cero, esos pasos que alguien ha dado por ti y que se encargan de esas tareas tediosas para construir tu proyecto.\n\n**Gulp 101** Entender, evolucionar y aprender a escribir tareas desde cero. c\u00f3mo modularizarlas para mantenerlas organizadas. \n\n- B\u00e1sicas: \nwatch, lint, prefijos css, serve, levantar servidor stubby.\n- Gesti\u00f3n de entornos, relleno de templates.\n- Qu\u00e9 es la minificaci\u00f3n, vulcanizaci\u00f3n, c\u00f3mo tienen que estar las cosas para poder realizar estas tareas.\n- Automatizaci\u00f3n la exportaci\u00f3n de tu proyecto web a un proyecto cordova.\n\nA\u00fan no puedo usar ES6, pero...\n- Me gustar\u00eda usar m\u00f3dulos js npm en mi proyecto front. C\u00f3mo usar browserify u otros.\n- Soy un moderno, me gusta la sintaxis ES2015: Pre-procesados babel.\n\n**Proyecto de componentes**: c\u00f3mo gestionarnos, bower, subm\u00f3dulos GIT. \nC\u00f3mo controlar las versiones de mis componentes. Herramienta para comprobar qu\u00e9 nuevas versiones existen de mis componentes.",
+            "description":"Rompe la barrera que te encuentras al montar un proyecto desde cero, esos pasos que alguien ha dado por ti y que se encargan de esas tareas tediosas para construir t\u00fa proyecto.\n\n**Gulp 101** Entender, evolucionar y aprender a escribir tareas desde cero. C\u00f3mo modularizarlas para mantenerlas organizadas e independientes. \n\nAprender\u00e1s tareas b\u00e1sicas como:\n- lint\n- node-sass\n- watch\n- limpieza\n- gesti\u00f3n de entornos\n- relleno de templates.\n\nCreaci\u00f3n de un plugin para gulp desde cero\n\nEmular tu backend\n\nA\u00f1adir tests e integrarlos a t\u00fa proceso de construcci\u00f3n. \n\nDistribuci\u00f3n de t\u00fa app:\n-  Minificaci\u00f3n, vulcanizaci\u00f3n\n- integraci\u00f3n continua con Travis\n\nSi puedes trae instalado de casa:\n - npm (node), bower\n - java",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -4027,7 +4033,7 @@
                 ]
             },
             "title":"De Junior a Senior, tooling JS",
-            "totalLikes":37,
+            "totalLikes":47,
             "totalVotes":15,
             "type":"TALK"
         },
@@ -4079,7 +4085,7 @@
                 }
             ],
             "creationDate":1466157922449,
-            "description":"Tradicionalmente JavaScript es un lenguaje pensado para \nfuncionar en los navegadores, pero con la llegada de Node.js\nse ha convertido tambi\u00e9n en un lenguaje para ser utilizado\nen los servidores.\nLas aplicaciones \"Universal JavaScript\" son aplicaciones\nque funcionan tanto en servidor como en cliente, es decir,\nel c\u00f3digo utilizado para implementar el servidor es el mismo\nque el interpretado por el navegador. De esta manera conseguimos \nreutilizar el c\u00f3digo fuente entre cliente y servidor, \neliminar el FUOC y tener muchas ventajas en cuanto al SEO. \nPero a la hora de abordar este tipo de aplicaciones tenemos \nque tener varias consideraciones en mente:\n* Utilizaci\u00f3n un sistema de rutas com\u00fan.\n* C\u00f3mo implementar la aplicaci\u00f3n para que funcione en los dos mundos.\n* No exponer datos sensibles.\n* Como compartir el estado entre el cliente y servidor.\n* Saber que tipo de librer\u00edas utilizar.\n\n\nEn esta presentaci\u00f3n se realizar\u00e1 a d\u00fao junto a Jorge Gonzalez, es decir, un ponente explicar\u00e1 el concepto de aplicaci\u00f3n universal en JavaScript mientras que el otro implementar\u00e1 una peque\u00f1a aplicaci\u00f3n como apoyo pr\u00e1ctico a la teor\u00eda. Esta aplicaci\u00f3n se realizar\u00e1 utilizando el framework express y las librer\u00edas React y Redux.\n\n\n\n",
+            "description":"# Codemotion 2016 - Universal JavaScript\n\n**JavaScript** es un lenguaje pensado para funcionar en los **navegadores**, pero con la llegada de Node.js se ha convertido en un lenguaje utilizado tambi\u00e9n en los servidores. \n\nLas aplicaciones **\"Universal JavaScript\"** funcionan tanto en **servidor** como en **cliente**. El c\u00f3digo utilizado para implementar el servidor es el mismo que el interpretado por el navegador.\n\nDe esta manera, se utiliza el **mismo c\u00f3digo fuente** entre **cliente** y **servidor** y tenemos muchas ventajas en SEO. \n\nPuntos a tener en cuenta:\n\n* Utilizar un sistema de rutas com\u00fan.\n* Implementar la aplicaci\u00f3n para que funcione en ambos mundos.\n* Compartir el estado entre el cliente y servidor.\n* Qu\u00e9 tipo de librer\u00edas utilizar.\n\nEsta **presentaci\u00f3n** se realizar\u00e1 en dos partes:\n\n1. Explicaci\u00f3n del concepto de aplicaci\u00f3n universal en JavaScript\n2. Implementaci\u00f3n de una peque\u00f1a aplicaci\u00f3n universal utilizando el framework express y las librer\u00edas React y Redux.\n\nLos **requisitos** y la **instalaci\u00f3n** de la aplicaci\u00f3n para el taller se puede encontrar en la url\nhttps://github.com/SamyRoad/talk-universal-javascript.git\n\n\n\n",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -4104,7 +4110,7 @@
                 ]
             },
             "title":"Universal JavaScript",
-            "totalLikes":44,
+            "totalLikes":56,
             "totalVotes":6,
             "type":"TALK"
         },
@@ -4130,7 +4136,7 @@
                 }
             ],
             "creationDate":1465748101472,
-            "description":"Hoy en d\u00eda todo el mundo usa Docker... en su entorno de desarrollo. Pero para llevarlo un entorno de producci\u00f3n, es necesario conocer c\u00f3mo podemos hacer para orquestar el despliegue de contenedores a lo largo de un cluster de m\u00e1quinas. \u00bfTe suenan palabras como [Swarm](https://docs.docker.com/swarm/overview/), [Kubernetes](http://kubernetes.io/), [Marathon](https://mesosphere.github.io/marathon/) o [Nomad](https://www.hashicorp.com/blog/nomad.html)?\n\nSi no sabes de lo que estoy hablando, no te preocupes, porque en 40 minutos har\u00e9 un resumen de c\u00f3mo funciona cada uno de ellos, como se despliegan y qu\u00e9 ventajas o inconvenientes presentan. \u00a1Prep\u00e1rate para llevar Docker a producci\u00f3n!",
+            "description":"Hoy en d\u00eda todo el mundo usa Docker... en su entorno de desarrollo. Pero para llevarlo un entorno de producci\u00f3n, es necesario conocer c\u00f3mo podemos hacer para orquestar el despliegue de contenedores a lo largo de un cluster de m\u00e1quinas. \u00bfTe suenan palabras como [Swarm](https://docs.docker.com/swarm/overview/), [Kubernetes](http://kubernetes.io/), [DC/OS](https://dcos.io/) o [Nomad](https://www.hashicorp.com/blog/nomad.html)?\n\nSi no sabes de lo que estoy hablando, no te preocupes, porque en 40 minutos har\u00e9 un resumen de c\u00f3mo funciona cada uno de ellos, como se despliegan y qu\u00e9 ventajas o inconvenientes presentan. \u00a1Prep\u00e1rate para llevar Docker a producci\u00f3n!",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -4155,7 +4161,7 @@
                 ]
             },
             "title":"4 orquestadores de Docker en 40 minutos",
-            "totalLikes":49,
+            "totalLikes":70,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -4230,7 +4236,7 @@
                 }
             ],
             "creationDate":1464762567440,
-            "description":"Vamos a desarrollar desde cero una **App Universal de Windows 10** aprovechando controles XAML gratuitos y alojados en **GitHub** por **Microsoft**. Empezaremos creando desde cero un proyecto UWP con Visual Studio 2015 y en el tiempo que dura el taller implementaremos una petici\u00f3n a servicios de datos en **C#** que consumiremos desde la App utilizando diferentes controles **XAML** responsive. El c\u00f3digo estar\u00e1 disponible al terminar la charla en un repositorio GitHub.",
+            "description":"Vamos a desarrollar desde cero una **App Universal de Windows 10** aprovechando controles XAML gratuitos y alojados en **GitHub** por **Microsoft**. Empezaremos creando desde cero un proyecto UWP con Visual Studio 2015 y en el tiempo que dura el taller implementaremos una petici\u00f3n a servicios de datos en **C#** que consumiremos desde la App utilizando diferentes controles **XAML** responsive. El c\u00f3digo estar\u00e1 disponible al terminar la charla en un repositorio GitHub.\n\nRecomendable asistir con un portatil con Windows 10, Visual Studio 2015 y las UWP Tools",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -4256,7 +4262,7 @@
                 ]
             },
             "title":"Desarrollo de Apps universales para Windows 10",
-            "totalLikes":9,
+            "totalLikes":13,
             "totalVotes":8,
             "type":"TALK"
         },
@@ -4326,7 +4332,7 @@
                 ]
             },
             "title":"Desarrollo backend en PHP con Laravel: testing y patrones de dise\u00f1o",
-            "totalLikes":9,
+            "totalLikes":20,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -4396,7 +4402,7 @@
                 ]
             },
             "title":"\u00bfSomos todas las que estamos?",
-            "totalLikes":14,
+            "totalLikes":21,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -4444,15 +4450,15 @@
                     "Intermediate"
                 ],
                 "Technology":[
-                    "Cloud",
-                    "Web"
+                    "Web",
+                    "Cloud"
                 ],
                 "Type of Proposal":[
                     "Workshop"
                 ]
             },
             "title":"Personalizar mapas vectoriales y consumirlos con AngularJS",
-            "totalLikes":11,
+            "totalLikes":15,
             "totalVotes":17,
             "type":"TALK"
         },
@@ -4563,7 +4569,7 @@
                 ]
             },
             "title":"Vaadin Framework, qu\u00e9 es y por qu\u00e9 deber\u00edas estar us\u00e1ndolo ya.",
-            "totalLikes":10,
+            "totalLikes":15,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -4608,7 +4614,7 @@
                 }
             ],
             "creationDate":1466180996812,
-            "description":"Vale, ya he hecho los tutoriales\u2026 me encantan los ejemplos de Mike Bostock, pero **sigo sin pillarlo**, leo el c\u00f3digo, lo releo y no me parece Javascript. Algo me falta para crear esas visualizaciones tan chulas.\n\nEste es un taller de d3 orientado a los que saben Javascript, se han acercado a d3.js como si fuera una librer\u00eda m\u00e1s y se han dado cuenta de que no\u2026 se resiste, tiene algo m\u00e1s que alguien me tiene que explicar.\n\n\u00bfdeber\u00eda estar usando d3.js? \u00bfc\u00f3mo creo nuevos tipos de gr\u00e1ficas? \u00bfanimaciones? \u00bfc\u00f3mo pongo tooltips? \u00bfc\u00f3mo integro un gr\u00e1fico d3 en una app de AngularJS?\n\nSI TIENES PENSADO ASISTIR, POR FAVOR VISITA ANTES https://github.com/jabadia/d3-workshop PARA PREPARAR TU ENTORNO",
+            "description":"Vale, ya he hecho los tutoriales\u2026 me encantan los ejemplos de Mike Bostock, pero **sigo sin pillarlo**, leo el c\u00f3digo, lo releo y no me parece Javascript. Algo me falta para crear esas visualizaciones tan chulas.\n\nEste es un taller de d3 orientado a los que saben Javascript, se han acercado a d3.js como si fuera una librer\u00eda m\u00e1s y se han dado cuenta de que no\u2026 se resiste, tiene algo m\u00e1s que alguien me tiene que explicar.\n\n\u00bfdeber\u00eda estar usando d3.js? \u00bfc\u00f3mo creo nuevos tipos de gr\u00e1ficas? \u00bfanimaciones? \u00bfc\u00f3mo integro un gr\u00e1fico d3 en una app de AngularJS?\n\nSI TIENES PENSADO ASISTIR, POR FAVOR VISITA ANTES https://github.com/jabadia/d3-workshop PARA PREPARAR TU ENTORNO",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -4632,8 +4638,8 @@
                     "Workshop"
                 ]
             },
-            "title":"Taller de d3.js: nada, que no me sale",
-            "totalLikes":21,
+            "title":"d3.js: un taller dif\u00edcil y divertido (nada, que no me sale!)",
+            "totalLikes":36,
             "totalVotes":17,
             "type":"TALK"
         },
@@ -4675,6 +4681,18 @@
                     "id":664019,
                     "name":"Florentino Romero Haro",
                     "uuid":"fromeroharo"
+                },
+                {
+                    "avatar":"https://storage.googleapis.com/k-avatars/96344001-24cc1328",
+                    "description":"I am not a coach, I do coaching. I am not a facilitator, I create learning spaces. I am not an engineer, I solve problems.",
+                    "feedback":{
+                        "entriesCount":0,
+                        "ratingAverage":0.0
+                    },
+                    "id":96344001,
+                    "name":"David Roncero Dom\u00ednguez",
+                    "twitterAccount":"ultraroncero",
+                    "uuid":"davidroncero"
                 }
             ],
             "creationDate":1466369341290,
@@ -4703,7 +4721,7 @@
                 ]
             },
             "title":"Sprint Planning y Refinamiento",
-            "totalLikes":33,
+            "totalLikes":46,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -4771,7 +4789,7 @@
                 ]
             },
             "title":"Tu primera PWA (progressive web app) con Polymer",
-            "totalLikes":35,
+            "totalLikes":53,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -4847,7 +4865,7 @@
                 }
             ],
             "creationDate":1475761072663,
-            "description":"Este workshop se enfocar\u00e1 en mostrar el proceso completo para generar dashboards de comunidades de desarrolladores como el usado por la [Fundaci\u00f3n Eclipse](https://dashboard.bitergia.com/eclipse), por [OPNFV](https://dashboard.bitergia.com/opnfv) o para cualquier otro proyecto de inter\u00e9s para los asistentes.\n\nSe dividir\u00e1 en tres partes b\u00e1sicas:\n\n* Recogida de datos usando [Perceval](https://github.com/grimoirelab/perceval)\n* Manejo, limpieza y gesti\u00f3n de datos generados, usando ElasticSearch y Pandas a trav\u00e9s de [grimoirelab](https://github.com/grimoirelab/)\n* Visualizaci\u00f3n de los datos y generaci\u00f3n de nuevas visualizaciones basado en Kibana y usando paneles ya generados y aprendiendo a generar nuevos.\n\nEn cada una de las etapas se mostrar\u00e1n ejemplos de c\u00f3digo de las diferentes herramientas y veremos r\u00e1pidamente c\u00f3mo obtener informaci\u00f3n de las diferentes fuentes de datos, as\u00ed como limpiarlos y visualizarlos.",
+            "description":"[Slides](https://speakerdeck.com/bitergia/grimoirelab-workshop-codemotion-2016)\n\nEste workshop se enfocar\u00e1 en mostrar el proceso completo para generar dashboards de comunidades de desarrolladores como el usado por la [Fundaci\u00f3n Eclipse](https://dashboard.bitergia.com/eclipse), por [OPNFV](https://dashboard.bitergia.com/opnfv) o para cualquier otro proyecto de inter\u00e9s para los asistentes.\n\nSe dividir\u00e1 en tres partes b\u00e1sicas:\n\n* Recogida de datos usando [Perceval](https://github.com/grimoirelab/perceval). Se recomienda su instalaci\u00f3n antes del taller (con pip o desde fuentes).\n* Publicaci\u00f3n y enriquecimiento de los datos usando ElasticSearch y GrimoireELK a trav\u00e9s de [grimoirelab](https://github.com/grimoirelab/). Se recomienda la descarga del [repositorio git](https://github.com/grimoirelab/GrimoireELK)\n* Visualizaci\u00f3n de los datos y generaci\u00f3n de nuevas visualizaciones basado en Kibana y usando paneles ya generados y aprendiendo a generar nuevos.\n\nEn cada una de las etapas se mostrar\u00e1n ejemplos de c\u00f3digo de las diferentes herramientas y veremos r\u00e1pidamente c\u00f3mo obtener informaci\u00f3n de las diferentes fuentes de datos, as\u00ed como limpiarlos y visualizarlos.",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -4874,7 +4892,7 @@
                 ]
             },
             "title":"Actividad, comunidad y proceso de tu proyecto y c\u00f3mo generar dashboards de manera sencilla",
-            "totalLikes":11,
+            "totalLikes":15,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -4947,7 +4965,7 @@
                 ]
             },
             "title":"Conectando aplicaciones m\u00f3viles a la nube con Xamarin",
-            "totalLikes":9,
+            "totalLikes":15,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -4980,7 +4998,7 @@
         "contents":{
             "authors":[
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/73004001-547fd424",
+                    "avatar":"https://storage.googleapis.com/k-avatars/73004001-4873c1f6",
                     "description":"I love both coding and workflows, automation is the future and the best sysadmin is no-sysadmin. I tried doing a PhD but I'm more into quick and real projects. I quitted my job to create my startup, currently working in in another one dockerizing their lives but I still join all small projects I can. SyncRTC's backend engineer.",
                     "feedback":{
                         "entriesCount":0,
@@ -5013,14 +5031,17 @@
                 ],
                 "Technology":[
                     "Web",
-                    "DevOps"
+                    "Cloud",
+                    "SQL and NoSQL",
+                    "DevOps",
+                    "Other"
                 ],
                 "Type of Proposal":[
                     "Workshop"
                 ]
             },
-            "title":"Docker for Startups",
-            "totalLikes":23,
+            "title":"Docker for Startups and Teams: Build your whole IaaS and share it with the world",
+            "totalLikes":36,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -5051,7 +5072,7 @@
                 }
             ],
             "creationDate":1466348104488,
-            "description":"Angular2 e ionic2 est\u00e1n a la vuelta de la esquina, dispuestos a revolucionar la forma de hacer aplicaciones m\u00f3viles.\n\nVeremos c\u00f3mo desarrollar desde cero una aplicaci\u00f3n multiplataforma en Ionic2, los conceptos principales de angular2 que necesitamos conocer y aprenderemos los mayores problemas de esta plataforma.\n\nSi quieres ahorrarte varias horas peg\u00e1ndote con entornos y aprender c\u00f3mo desarrollar en base a las mejores pr\u00e1cticas de angular2 y ionic, no te pierdas este taller!",
+            "description":"Angular2 e ionic2 est\u00e1n a la vuelta de la esquina, dispuestos a revolucionar la forma de hacer aplicaciones m\u00f3viles.\n\nVeremos c\u00f3mo desarrollar desde cero una aplicaci\u00f3n multiplataforma en Ionic2, los conceptos principales de angular2 que necesitamos conocer y aprenderemos los mayores problemas de esta plataforma.\n\nSi quieres ahorrarte varias horas peg\u00e1ndote con entornos y aprender c\u00f3mo desarrollar en base a las mejores pr\u00e1cticas de angular2 y ionic, no te pierdas este taller!\n\n# Requisitos\n\n* [Node](https://nodejs.org/en/) (>6)\n* ionic y cordova instalado, lanza:\n \nsudo npm install -g ionic cordova\n* Y una aplicaci\u00f3n de ejemplo creada, basta con lanzar:\n\nionic start ionic2-codemotion --v2",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -5076,7 +5097,7 @@
                 ]
             },
             "title":"Ionic2 and angular2 in practice",
-            "totalLikes":46,
+            "totalLikes":66,
             "totalVotes":8,
             "type":"TALK"
         },
@@ -5147,7 +5168,7 @@
                 ]
             },
             "title":"Lo que deber\u00edas saber sobre testing para irte de ca\u00f1as con @pedro_g_s y no empezar con resaca. ",
-            "totalLikes":106,
+            "totalLikes":155,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -5203,7 +5224,7 @@
                 ]
             },
             "title":"Git nivel Samurai",
-            "totalLikes":132,
+            "totalLikes":186,
             "totalVotes":23,
             "type":"TALK"
         },
@@ -5277,9 +5298,9 @@
                     "Advanced"
                 ],
                 "Technology":[
-                    "Web",
-                    "Cloud",
                     "SQL and NoSQL",
+                    "Cloud",
+                    "Web",
                     "DevOps"
                 ],
                 "Type of Proposal":[
@@ -5287,7 +5308,7 @@
                 ]
             },
             "title":"Microservicios, en qu\u00e9 l\u00edo me he metido",
-            "totalLikes":99,
+            "totalLikes":131,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -5342,7 +5363,7 @@
                 ]
             },
             "title":"Time to grow up",
-            "totalLikes":73,
+            "totalLikes":111,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -5412,7 +5433,7 @@
                 ]
             },
             "title":"Las 10 queries SQL m\u00e1s poderosas del mundo",
-            "totalLikes":91,
+            "totalLikes":124,
             "totalVotes":25,
             "type":"TALK"
         },
@@ -5468,7 +5489,7 @@
                 ]
             },
             "title":"Docker4Developers",
-            "totalLikes":83,
+            "totalLikes":122,
             "totalVotes":20,
             "type":"TALK"
         },
@@ -5525,7 +5546,7 @@
                 ]
             },
             "title":"Programaci\u00f3n funcional en JavaScript",
-            "totalLikes":66,
+            "totalLikes":92,
             "totalVotes":10,
             "type":"TALK",
             "videoUrl":"https://www.youtube.com/watch?v=s59EQgtcoJA"
@@ -5583,7 +5604,7 @@
                 ]
             },
             "title":"Data! Data! Data!",
-            "totalLikes":93,
+            "totalLikes":139,
             "totalVotes":17,
             "type":"TALK"
         },
@@ -5653,7 +5674,7 @@
                 ]
             },
             "title":"Mastering the 'new' Android Studio",
-            "totalLikes":34,
+            "totalLikes":48,
             "totalVotes":9,
             "type":"TALK"
         },
@@ -5709,7 +5730,7 @@
                 ]
             },
             "title":"CSS Grid Layout - Controlando la estructura de nuestra web",
-            "totalLikes":49,
+            "totalLikes":68,
             "totalVotes":18,
             "type":"TALK"
         },
@@ -5776,7 +5797,7 @@
                 ]
             },
             "title":"Por qu\u00e9 usar Spock en lugar de JUnit / Mockito para tus tests Java",
-            "totalLikes":56,
+            "totalLikes":77,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -5833,7 +5854,7 @@
                 ]
             },
             "title":"Testing UI using intuitive commands",
-            "totalLikes":37,
+            "totalLikes":47,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -5903,7 +5924,7 @@
                 ]
             },
             "title":"Real-time Learning with Spark",
-            "totalLikes":37,
+            "totalLikes":53,
             "totalVotes":7,
             "type":"TALK"
         },
@@ -5933,7 +5954,7 @@
                 }
             ],
             "creationDate":1465469203822,
-            "description":"A d\u00eda de hoy, existen numerosas t\u00e9cnicas y metodolog\u00edas que nos ayudan a escribir un c\u00f3digo CSS m\u00e1s sencillo de mantener. Adem\u00e1s, el avance en la propia especificaci\u00f3n de CSS y su adopci\u00f3n por parte de los navegadores, brinda a los desarrolladores nuevas herramientas que permiten abandonar los peligrosos \u2022*hacks* que hac\u00edan falta hace tan s\u00f3lo unos pocos a\u00f1os.\n\nEn esta charla, exploraremos los \u00faltimos avances (y alguna que otra metodolog\u00eda) que nos ayuden a escribir un c\u00f3digo CSS m\u00e1s limpio, mantenible y escalable.",
+            "description":"A d\u00eda de hoy, existen numerosas t\u00e9cnicas y metodolog\u00edas que nos ayudan a escribir un c\u00f3digo CSS m\u00e1s sencillo de mantener. Adem\u00e1s, el avance en la propia especificaci\u00f3n de CSS y su adopci\u00f3n por parte de los navegadores, brinda a los desarrolladores nuevas herramientas que permiten abandonar los peligrosos \u200b*hacks* que hac\u00edan falta hace tan s\u00f3lo unos pocos a\u00f1os.\n\nEn esta charla, exploraremos los \u00faltimos avances (y alguna que otra metodolog\u00eda) que nos ayuden a escribir un c\u00f3digo CSS m\u00e1s limpio, mantenible y escalable.",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -5958,7 +5979,7 @@
                 ]
             },
             "title":"Gu\u00eda r\u00e1pida para escribir CSS mantenible y escalable",
-            "totalLikes":48,
+            "totalLikes":64,
             "totalVotes":17,
             "type":"TALK"
         },
@@ -6025,7 +6046,7 @@
                 ]
             },
             "title":"The Developer Journey",
-            "totalLikes":32,
+            "totalLikes":49,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -6091,7 +6112,7 @@
                 ]
             },
             "title":"Serverless applications",
-            "totalLikes":45,
+            "totalLikes":58,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -6132,11 +6153,12 @@
                     },
                     "id":36204001,
                     "name":"Samuel Sol\u00eds Fuentes",
+                    "twitterAccount":"estoyausente",
                     "uuid":"ssolisfu"
                 }
             ],
             "creationDate":1466516294400,
-            "description":"Los desarrolladores no solemos ser los mejores comunicadores del mundo. Muchas veces, siendo unos t\u00e9cnicos excelentes, nuestros proyectos pierden calidad por una mala gesti\u00f3n de requisitos y una mala comunicaci\u00f3n con el cliente.\n\nEn esta charla veremos **por qu\u00e9 una mala comunicaci\u00f3n con el cliente hace que tu c\u00f3digo sea peor** y despu\u00e9s algunos trucos, estrategias y peque\u00f1os consejos **para evitar que un mal cliente tire por tierra nuestro proyecto**.\n\nHablaremos de comunicaci\u00f3n, de control de crisis y gesti\u00f3n del cambio (mucho). Tambi\u00e9n de metodolog\u00edas \u00e1giles y herramientas (menos). \n\nPor cierto: todos tenemos clientes.",
+            "description":"Los desarrolladores no solemos ser los mejores comunicadores del mundo. Muchas veces, aun siendo unos t\u00e9cnicos excelentes, nuestros proyectos pierden calidad por una mala gesti\u00f3n de requisitos y una mala comunicaci\u00f3n con el cliente.\n\nEn esta charla veremos **por qu\u00e9 una mala comunicaci\u00f3n con el cliente hace que tu c\u00f3digo sea peor** y despu\u00e9s algunos trucos, estrategias y peque\u00f1os consejos **para evitar que un mal cliente tire por tierra nuestro proyecto**.\n\nHablaremos (mucho) de comunicaci\u00f3n, de control de crisis y gesti\u00f3n del cambio. Tambi\u00e9n (menos) de metodolog\u00edas \u00e1giles y herramientas. \n\nPor cierto: todos tenemos clientes.",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -6166,14 +6188,18 @@
                     "Intermediate"
                 ],
                 "Technology":[
-                    "Agile and Lean"
+                    "Agile and Lean",
+                    "Web",
+                    "Mobile",
+                    "DevOps",
+                    "Other"
                 ],
                 "Type of Proposal":[
                     "Talk"
                 ]
             },
             "title":"Mejora tu c\u00f3digo mejorando tu comunicaci\u00f3n",
-            "totalLikes":55,
+            "totalLikes":71,
             "totalVotes":19,
             "type":"TALK"
         },
@@ -6229,7 +6255,7 @@
                 ]
             },
             "title":"\u00bfY si los robots nos pidiesen ayuda?",
-            "totalLikes":29,
+            "totalLikes":42,
             "totalVotes":25,
             "type":"TALK"
         },
@@ -6299,7 +6325,7 @@
                 ]
             },
             "title":"Introducci\u00f3n a los lenguajes de programaci\u00f3n cu\u00e1nticos",
-            "totalLikes":50,
+            "totalLikes":76,
             "totalVotes":16,
             "type":"TALK"
         },
@@ -6359,7 +6385,7 @@
                 ]
             },
             "title":"Una imagen vale m\u00e1s que 1000 l\u00edneas de c\u00f3digo",
-            "totalLikes":26,
+            "totalLikes":38,
             "totalVotes":23,
             "type":"TALK"
         },
@@ -6423,15 +6449,15 @@
                 ],
                 "Technology":[
                     "Web",
-                    "Other",
-                    "Mobile"
+                    "Mobile",
+                    "Other"
                 ],
                 "Type of Proposal":[
                     "Talk"
                 ]
             },
             "title":"SmartTV 101",
-            "totalLikes":23,
+            "totalLikes":39,
             "totalVotes":20,
             "type":"TALK"
         },
@@ -6500,7 +6526,7 @@
                 ]
             },
             "title":"La guerra de los Mundos: Dise\u00f1adores VS Developers",
-            "totalLikes":39,
+            "totalLikes":58,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -6557,7 +6583,7 @@
                 ]
             },
             "title":"De Java a Groovy: \u00a1Hora de aventuras!",
-            "totalLikes":9,
+            "totalLikes":19,
             "totalVotes":13,
             "type":"TALK"
         },
@@ -6624,7 +6650,7 @@
                 ]
             },
             "title":"How can AI help you?",
-            "totalLikes":35,
+            "totalLikes":46,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -6695,7 +6721,7 @@
                 ]
             },
             "title":"Como Ser maestros constructoreS",
-            "totalLikes":58,
+            "totalLikes":67,
             "totalVotes":13,
             "type":"TALK"
         },
@@ -6725,7 +6751,7 @@
                 }
             ],
             "creationDate":1465413275821,
-            "description":"El contenido de la charla trata sobre un **resumen y s\u00edntesis del libro \"Clean Code\" de Robert C. Matin**.\n\n- Introduciremos el t\u00e9rmino **Clean Code**, que significa, que implica y que ventajas tiene.\n- Repasaremos todas las \"Leyes\" mencionadas en el libro, como **KISS, la regla del Boy Scout, SOLID**, etc.\n- Veremos la importancia del **nombrado** y las reglas a seguir para seleccionar un buen nombre.\n- Aprenderemos a crear **Funciones mantenibles** con ejemplos de c\u00f3digo y antipatrones.\n- Analizaremos la importancia de los **comentarios**, cuales deber\u00edamos permitir y cuales no.\n- Repasaremos las reglas de **formato** para que nuestro c\u00f3digo sea entendible y lo m\u00e1s legible posible.\n- Veremos como escribir **clases y estructuras de datos \"limpias\"**.\n- Aprenderemos las mejores t\u00e9cnicas de **control de errores** para nuestro \"Clean Code\".\n\nLos ejemplos de c\u00f3digo son en Java, pero pueden ser aplicados a cualquier lenguaje.",
+            "description":"El contenido de la charla trata sobre un **resumen y s\u00edntesis del libro \"Clean Code\" de Robert C. Matin**.\n\n- Introduciremos el t\u00e9rmino **Clean Code**, que significa, que implica y que ventajas tiene.\n- Repasaremos todas las \"Leyes\" mencionadas en el libro, como **KISS, la regla del Boy Scout, SOLID**, etc.\n- Veremos la importancia del **nombrado** y las reglas a seguir para seleccionar un buen nombre.\n- Aprenderemos a crear **Funciones mantenibles** con ejemplos de c\u00f3digo y antipatrones.\n- Analizaremos la importancia de los **comentarios**, cuales deber\u00edamos permitir y cuales no.\n- Repasaremos las reglas de **formato** para que nuestro c\u00f3digo sea entendible y lo m\u00e1s legible posible.\n- Veremos como escribir **clases y estructuras de datos \"limpias\"**.\n- Aprenderemos las mejores t\u00e9cnicas de **control de errores** para nuestro \"Clean Code\".\n\nLos ejemplos de c\u00f3digo son en Java, pero pueden ser aplicados a cualquier lenguaje.\n\nEnlace a la presentaci\u00f3n => http://www.slideshare.net/loaisa/clean-code-62746616\n",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -6751,7 +6777,7 @@
                 ]
             },
             "title":"Clean Code",
-            "totalLikes":115,
+            "totalLikes":160,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -6822,7 +6848,7 @@
                 ]
             },
             "title":"Patrones de Dise\u00f1o para Aplicaciones Basadas en Componentes Web",
-            "totalLikes":90,
+            "totalLikes":131,
             "totalVotes":28,
             "type":"TALK"
         },
@@ -6877,7 +6903,7 @@
                 ]
             },
             "title":"Redux para frontenders y no tan frontenders",
-            "totalLikes":73,
+            "totalLikes":94,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -6918,7 +6944,7 @@
                     },
                     "id":6301954040922112,
                     "name":"Diego Moreno",
-                    "twitterAccount":"_d_moreno",
+                    "twitterAccount":"diegmoren",
                     "uuid":"diegomoreno"
                 }
             ],
@@ -6943,16 +6969,16 @@
                 ],
                 "Technology":[
                     "Big Data",
-                    "SQL and NoSQL",
+                    "Web",
                     "Cloud",
-                    "Web"
+                    "SQL and NoSQL"
                 ],
                 "Type of Proposal":[
                     "Talk"
                 ]
             },
             "title":"M\u00e1s all\u00e1 del CRUD: patrones que nunca olvidan",
-            "totalLikes":79,
+            "totalLikes":107,
             "totalVotes":13,
             "type":"TALK"
         },
@@ -7008,7 +7034,7 @@
                 ]
             },
             "title":"Menos agilismo y m\u00e1s agilidad",
-            "totalLikes":71,
+            "totalLikes":101,
             "totalVotes":22,
             "type":"TALK"
         },
@@ -7071,7 +7097,7 @@
                 ]
             },
             "title":"Testing on the Toilet",
-            "totalLikes":67,
+            "totalLikes":98,
             "totalVotes":8,
             "type":"TALK"
         },
@@ -7127,7 +7153,7 @@
                 ]
             },
             "title":"Tests de Integraci\u00f3n automatizados con Docker y Bamboo",
-            "totalLikes":49,
+            "totalLikes":67,
             "totalVotes":14,
             "type":"TALK"
         },
@@ -7160,7 +7186,7 @@
         "contents":{
             "authors":[
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/78474001-8bdb8973",
+                    "avatar":"https://storage.googleapis.com/k-avatars/78474001-a188e100",
                     "description":"Primero padre, segundo apasionado tecnol\u00f3gico y tercero aprendiz de programador. Trabajo en Pasiona y de vez en cuando me permiten contar historias en [T]echdencias. Mi objetivo, aprender una cosa nueva cada d\u00eda. Asturiano en Catalu\u00f1a y rojiblanco de coraz\u00f3n!",
                     "feedback":{
                         "entriesCount":0,
@@ -7198,15 +7224,15 @@
                     "Intermediate"
                 ],
                 "Technology":[
-                    "Web",
-                    "Cloud"
+                    "Cloud",
+                    "Web"
                 ],
                 "Type of Proposal":[
                     "Talk"
                 ]
             },
             "title":"\u00bfQui\u00e9n, cu\u00e1ndo, d\u00f3nde y por qu\u00e9?",
-            "totalLikes":35,
+            "totalLikes":47,
             "totalVotes":21,
             "type":"TALK"
         },
@@ -7242,6 +7268,7 @@
                 "ratingAverage":0.0
             },
             "id":5751939321036800,
+            "slidesUrl":"https://speakerdeck.com/borderstark/apache-beam-batch-streaming-modelos-y-otra-fauna",
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
@@ -7257,15 +7284,15 @@
                 ],
                 "Technology":[
                     "Big Data",
-                    "Cloud",
-                    "SQL and NoSQL"
+                    "SQL and NoSQL",
+                    "Cloud"
                 ],
                 "Type of Proposal":[
                     "Talk"
                 ]
             },
             "title":"Apache Beam, Batch, Streaming y otra fauna",
-            "totalLikes":17,
+            "totalLikes":24,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -7338,7 +7365,7 @@
                 ]
             },
             "title":"De Java a Swift pasando por Groovy",
-            "totalLikes":22,
+            "totalLikes":33,
             "totalVotes":3,
             "type":"TALK"
         },
@@ -7368,7 +7395,7 @@
                 }
             ],
             "creationDate":1463817944832,
-            "description":"Vamos a ver uno de esos servicios menospreciados de Azure (Azure Search).\n\n\u00bfHas pensado alguna vez como construir un servicio profesional de b\u00fasqueda? Nada m\u00e1s imaginarnos las combinaciones de filtros , ya se nos quitan las ganas \u00bfverdad? \u2022Pues hay soluci\u00f3n \u201cOut-Of-The-Box\u201d.\n\nAprenderemos a amar las b\u00fasquedas de una manera muy sencilla y gracias a Azure.\n\nMostraremos todos los conceptos m\u00e1s importantes y necesarios para poder construir un motor de b\u00fasqueda el\u00e1stico y administrado sin perder nuestra dignidad y sin tener que llorar en casa a la llegada del trabajo . \n\nAparte de configurarlo veremos como consumirlo desde c\u00f3digo y analizaremos que nos aporta la utilizaci\u00f3n de un sistema de b\u00fasqueda tipo SaaS.\n\nSe ver\u00e1 en profundidad conceptos est\u00e1ndares en b\u00fasquedas el\u00e1sticas  tales como `Suggestion`, `Facetable`, `Scoring` o `Lucene syntax` y veremos como trabajar con conceptos m\u00e1s concretos de Azure Search como `Indexers`, `Documents` y `OData syntax`.\n\nPor \u00faltimo veremos como solucionar el problema de escalabilidad y concurrencia en nuestras b\u00fasquedas.",
+            "description":"Vamos a ver uno de esos servicios menospreciados de Azure (Azure Search).\n\n\u00bfHas pensado alguna vez como construir un servicio profesional de b\u00fasqueda? Nada m\u00e1s imaginarnos las combinaciones de filtros , ya se nos quitan las ganas \u00bfverdad? \u200bPues hay soluci\u00f3n \u201cOut-Of-The-Box\u201d.\n\nAprenderemos a amar las b\u00fasquedas de una manera muy sencilla y gracias a Azure.\n\nMostraremos todos los conceptos m\u00e1s importantes y necesarios para poder construir un motor de b\u00fasqueda el\u00e1stico y administrado sin perder nuestra dignidad y sin tener que llorar en casa a la llegada del trabajo . \n\nAparte de configurarlo veremos como consumirlo desde c\u00f3digo y analizaremos que nos aporta la utilizaci\u00f3n de un sistema de b\u00fasqueda tipo SaaS.\n\nSe ver\u00e1 en profundidad conceptos est\u00e1ndares en b\u00fasquedas el\u00e1sticas  tales como `Suggestion`, `Facetable`, `Scoring` o `Lucene syntax` y veremos como trabajar con conceptos m\u00e1s concretos de Azure Search como `Indexers`, `Documents` y `OData syntax`.\n\nPor \u00faltimo veremos como solucionar el problema de escalabilidad y concurrencia en nuestras b\u00fasquedas.",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -7386,8 +7413,8 @@
                     "Advanced"
                 ],
                 "Technology":[
-                    "Web",
                     "Cloud",
+                    "Web",
                     "DevOps"
                 ],
                 "Type of Proposal":[
@@ -7395,7 +7422,7 @@
                 ]
             },
             "title":"C\u00f3mo montar nuestro propio motor de b\u00fasqueda (Out-Of-The-Box)",
-            "totalLikes":21,
+            "totalLikes":29,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -7477,7 +7504,7 @@
                 ]
             },
             "title":"Hackathones 101",
-            "totalLikes":26,
+            "totalLikes":34,
             "totalVotes":9,
             "type":"TALK"
         },
@@ -7525,8 +7552,8 @@
                     "Intermediate"
                 ],
                 "Technology":[
-                    "Cloud",
                     "Web",
+                    "Cloud",
                     "Mobile",
                     "Games"
                 ],
@@ -7535,7 +7562,7 @@
                 ]
             },
             "title":"Multiplayer social games from the trenches.",
-            "totalLikes":16,
+            "totalLikes":23,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -7592,7 +7619,7 @@
                 ]
             },
             "title":"An\u00e1lisis de colores: c\u00f3mo analizar tendencias de moda autom\u00e1ticamente",
-            "totalLikes":25,
+            "totalLikes":37,
             "totalVotes":17,
             "type":"TALK"
         },
@@ -7651,7 +7678,7 @@
                 ]
             },
             "title":"Firebase + Kotlin + MVP + Rx: Practical Tips",
-            "totalLikes":30,
+            "totalLikes":40,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -7717,7 +7744,7 @@
                 ]
             },
             "title":"MySQL: C\u00f3mo migrar una tabla con 8 millones de registros",
-            "totalLikes":27,
+            "totalLikes":41,
             "totalVotes":14,
             "type":"TALK"
         },
@@ -7774,7 +7801,7 @@
                 ]
             },
             "title":"\u00bfD\u00f3nde estoy?, comparando 10 geocodificadores",
-            "totalLikes":12,
+            "totalLikes":17,
             "totalVotes":16,
             "type":"TALK"
         },
@@ -7844,7 +7871,7 @@
                 ]
             },
             "title":"Introducci\u00f3n a JSON API",
-            "totalLikes":18,
+            "totalLikes":34,
             "totalVotes":13,
             "type":"TALK"
         },
@@ -7899,7 +7926,7 @@
                 ]
             },
             "title":"C++17: El remplazo de C++11/14",
-            "totalLikes":14,
+            "totalLikes":16,
             "totalVotes":1,
             "type":"TALK"
         },
@@ -7969,7 +7996,7 @@
                 ]
             },
             "title":"Open Development Analytics, anal\u00edtica de desarrollo Open Source e Inner Sourcing",
-            "totalLikes":6,
+            "totalLikes":10,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -8026,7 +8053,7 @@
                 ]
             },
             "title":"Estructurar y mantener aplicaciones Rails sin morir en el intento",
-            "totalLikes":8,
+            "totalLikes":10,
             "totalVotes":4,
             "type":"TALK"
         },
@@ -8081,7 +8108,7 @@
                 ]
             },
             "title":"Haciendo pruebas unitarias con Google Test y midiendo cobertura con gcover",
-            "totalLikes":17,
+            "totalLikes":20,
             "totalVotes":8,
             "type":"TALK"
         },
@@ -8137,7 +8164,7 @@
                 ]
             },
             "title":"C# para desarrolladores de Java",
-            "totalLikes":14,
+            "totalLikes":16,
             "totalVotes":16,
             "type":"TALK"
         },
@@ -8207,7 +8234,7 @@
                 ]
             },
             "title":"C\u00f3mo vivir regalando tu software: negocio y open source",
-            "totalLikes":51,
+            "totalLikes":63,
             "totalVotes":15,
             "type":"TALK"
         },
@@ -8262,7 +8289,7 @@
                 ]
             },
             "title":"Machine learning: from practice to theory",
-            "totalLikes":57,
+            "totalLikes":72,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -8307,7 +8334,7 @@
                 }
             ],
             "creationDate":1465578390065,
-            "description":"No importa cuan eficiente sea tu c\u00f3digo o c\u00f3mo de desacopladas est\u00e9n tus capas, si a tus compa\u00f1eros no les gusta trabajar contigo eres un mal desarrollador.\n\nLa mayor parte de tu tiempo se invierte en comunicarte con otros: hablando, escribiendo emails, tareas, comentando en pull requests... Y si no eres capaz de hacer esto correctamente tus compa\u00f1eros no tendr\u00e1n en cuenta tus opiniones o tendr\u00e1n miedo de ped\u00edrtelas. Y un equipo que no es capaz de comunicarse abiertamente acabar\u00e1 produciendo mal software.\u2022\n\nAs\u00ed que es hora de aprender a hacer esto bien!\n\nEn esta presentaci\u00f3n hablar\u00e9 de como perfeccionar tus habilidades de comunicaci\u00f3n para sacar el mayor partido de ellas.\n- C\u00f3mo dar feedback de manera constructiva.\n- C\u00f3mo comentar amablemente en el c\u00f3digo de los dem\u00e1s.\n- C\u00f3mo transmitir desacuerdo sin ofender.\n- C\u00f3mo expresar tus ideas.\n\nLa habilidad de comunicar correctamente dentro de un equipo es la m\u00e1s valiosa que puedes aprender ya que te va a acompa\u00f1ar durante toda tu carrera. No importa la empresa en la que est\u00e9s o la tecnolog\u00eda que uses, siempre vas a estar trabajando con personas. Y tendr\u00e1s que comunicarte con ellos. Un mont\u00f3n.\n",
+            "description":"No importa cuan eficiente sea tu c\u00f3digo o c\u00f3mo de desacopladas est\u00e9n tus capas, si a tus compa\u00f1eros no les gusta trabajar contigo eres un mal desarrollador.\n\nLa mayor parte de tu tiempo se invierte en comunicarte con otros: hablando, escribiendo emails, tareas, comentando en pull requests... Y si no eres capaz de hacer esto correctamente tus compa\u00f1eros no tendr\u00e1n en cuenta tus opiniones o tendr\u00e1n miedo de ped\u00edrtelas. Y un equipo que no es capaz de comunicarse abiertamente acabar\u00e1 produciendo mal software.\u200b\n\nAs\u00ed que es hora de aprender a hacer esto bien!\n\nEn esta presentaci\u00f3n hablar\u00e9 de como perfeccionar tus habilidades de comunicaci\u00f3n para sacar el mayor partido de ellas.\n- C\u00f3mo dar feedback de manera constructiva.\n- C\u00f3mo comentar amablemente en el c\u00f3digo de los dem\u00e1s.\n- C\u00f3mo transmitir desacuerdo sin ofender.\n- C\u00f3mo expresar tus ideas.\n\nLa habilidad de comunicar correctamente dentro de un equipo es la m\u00e1s valiosa que puedes aprender ya que te va a acompa\u00f1ar durante toda tu carrera. No importa la empresa en la que est\u00e9s o la tecnolog\u00eda que uses, siempre vas a estar trabajando con personas. Y tendr\u00e1s que comunicarte con ellos. Un mont\u00f3n.\n",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -8333,7 +8360,7 @@
                 ]
             },
             "title":"Nadie quiere trabajar contigo",
-            "totalLikes":77,
+            "totalLikes":100,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -8388,7 +8415,7 @@
                 ]
             },
             "title":"One click release: ft. Travis, Spinnaker & co.",
-            "totalLikes":29,
+            "totalLikes":47,
             "totalVotes":3,
             "type":"TALK"
         },
@@ -8459,7 +8486,7 @@
                 ]
             },
             "title":"Tensorflow : Dise\u00f1o de redes neuronales ",
-            "totalLikes":48,
+            "totalLikes":65,
             "totalVotes":0,
             "type":"TALK"
         },
@@ -8514,7 +8541,7 @@
                 ]
             },
             "title":"C\u00f3mo gestionar el estado de tu UI: El camino hacia el Virtual DOM y RxJS",
-            "totalLikes":43,
+            "totalLikes":57,
             "totalVotes":16,
             "type":"TALK"
         },
@@ -8570,7 +8597,7 @@
                 ]
             },
             "title":"\u00bfCon 40+ y programando? S\u00e1cale provecho a tu experiencia",
-            "totalLikes":58,
+            "totalLikes":78,
             "totalVotes":19,
             "type":"TALK"
         },
@@ -8619,15 +8646,15 @@
                     "Intermediate"
                 ],
                 "Technology":[
-                    "SQL and NoSQL",
-                    "Web"
+                    "Web",
+                    "SQL and NoSQL"
                 ],
                 "Type of Proposal":[
                     "Talk"
                 ]
             },
             "title":"ElasticSearch at Ticketbis: A real story in +50 languages",
-            "totalLikes":45,
+            "totalLikes":63,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -8679,12 +8706,12 @@
                 "Language":[
                     "Java and JVM languages",
                     "Bash",
-                    "C/C++",
-                    "Objective-C",
                     "PHP",
+                    "Objective-C",
+                    "C/C++",
                     ".Net",
-                    "Ruby",
                     "Scala",
+                    "Ruby",
                     "Go",
                     "Groovy",
                     "Python",
@@ -8704,7 +8731,7 @@
                 ]
             },
             "title":"Nuestro c\u00f3digo habla, \u00bfqu\u00e9 nos dice?",
-            "totalLikes":49,
+            "totalLikes":77,
             "totalVotes":9,
             "type":"TALK"
         },
@@ -8760,7 +8787,7 @@
                 ]
             },
             "title":"Akka persistence, CQRS/ES y otras siglas del mont\u00f3n",
-            "totalLikes":30,
+            "totalLikes":39,
             "totalVotes":10,
             "type":"TALK"
         },
@@ -8833,7 +8860,7 @@
                 ]
             },
             "title":"La importancia de simplificar la gesti\u00f3n de servidores",
-            "totalLikes":26,
+            "totalLikes":37,
             "totalVotes":4,
             "type":"TALK"
         },
@@ -8863,7 +8890,7 @@
                 }
             ],
             "creationDate":1462897062040,
-            "description":"At source{d}, we analyze and store every single public repository from Github (+17M repositories and 90TB). During this talk we will explain how we go through +900M commits analyzing the code and the metadata using plain Go and a Docker Swarm cluster with +120 nodes. ",
+            "description":"At source{d}, we analyze and store every single public repository from Github (+17M repositories and 90TB). During this talk we will explain how we go through +900M commits analyzing the code and the metadata using plain Go. ",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -8887,8 +8914,8 @@
                     "Talk"
                 ]
             },
-            "title":"Analyzing 900 millions commits with Go",
-            "totalLikes":18,
+            "title":"Analyzing 900 million commits with Go",
+            "totalLikes":27,
             "totalVotes":19,
             "type":"TALK"
         },
@@ -8961,9 +8988,12 @@
                 "ratingAverage":0.0
             },
             "id":5634999273390080,
+            "slidesUrl":"http://slides.com/francabrera/quantumexperience/fullscreen",
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
+                    "Html/CSS",
+                    "Python",
                     "JavaScript"
                 ],
                 "Language of the talk/workshop":[
@@ -8974,15 +9004,15 @@
                 ],
                 "Technology":[
                     "Agile and Lean",
-                    "Web",
-                    "Cloud"
+                    "Cloud",
+                    "Web"
                 ],
                 "Type of Proposal":[
                     "Talk"
                 ]
             },
             "title":"Un Chip Cu\u00e1ntico, 5 Qubits, la Nube y unas Quantas horas",
-            "totalLikes":17,
+            "totalLikes":26,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -9042,7 +9072,7 @@
                 ]
             },
             "title":"This BOTS are made for coding",
-            "totalLikes":38,
+            "totalLikes":54,
             "totalVotes":22,
             "type":"TALK"
         },
@@ -9061,7 +9091,7 @@
             "authors":[
                 {
                     "avatar":"https://storage.googleapis.com/k-avatars/5670091068801024-a7776aee",
-                    "description":"M\u00e1s vale \"Ma\u00f1a\" que fuerza. M\u00e1s de 7 a\u00f1os de experiencia software pas\u00e1ndomelo piruleta en los mundos de desarrollo de software. Muy fan de AgileAragon, CachiruloValley y Betabeers.  ",
+                    "description":"M\u00e1s vale \"Ma\u00f1a\" que fuerza. M\u00e1s de 7 a\u00f1os de experiencia software pas\u00e1ndomelo piruleta en los mundos de desarrollo de software. Muy fan de AgileAragon y Betabeers.  Colaboro con CachiruloValley",
                     "feedback":{
                         "entriesCount":0,
                         "ratingAverage":0.0
@@ -9073,7 +9103,7 @@
                 }
             ],
             "creationDate":1466359202863,
-            "description":"Con **Django** he descubierto un **framework** bueno, bonito y barato que me ayuda a hacer una interfaz que conecta con scripts de python.   \n\n\u00bfQu\u00e9 me llev\u00f3 a utilizar Python? \u00bfPor qu\u00e9 termin\u00e9 utilizando Django? \u00bfEn qu\u00e9 me sirvi\u00f3 Django? \u00bfEn qu\u00e9 no? \u00bfVentajas, desventajas? \u00bfQu\u00e9 me llam\u00f3 la atenci\u00f3n de la funcionalidad de Django? \n\nEn esta charla me gustar\u00eda picar la curiosidad a todos los que desconozcan esta tecnolog\u00eda por si alguna vez les puede cuadrar la soluci\u00f3n en su d\u00eda a d\u00eda. Todo se puede automatizar y con una interfaz, ganas independencia. \n\nLa charla est\u00e1 basada en hechos reales: javera de backend con conocimientos b\u00e1sicos b\u00e1siqu\u00edsimos de front. ",
+            "description":"Con **Django** he descubierto un **framework** bueno, bonito y barato que me ayuda a hacer una interfaz que conecta con scripts de python.   \n\n\u00bfQu\u00e9 me llev\u00f3 a utilizar Python? \u00bfPor qu\u00e9 termin\u00e9 utilizando Django? \u00bfQu\u00e9 cosas me parecieron alucinantes en funcionalidad? \u00bfVentajas, desventajas?\n\nEn esta charla me gustar\u00eda mostrar que Django es muy f\u00e1cil de usar y que en poco tiempo se pueden hacer grandes cosas. \n\nLa charla est\u00e1 basada en hechos reales.",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -9097,8 +9127,8 @@
                     "Talk"
                 ]
             },
-            "title":"Django desde una javera de backend y vivir para contarlo",
-            "totalLikes":28,
+            "title":"Django desencadenado: intro a Django Web Framework de Python",
+            "totalLikes":34,
             "totalVotes":6,
             "type":"TALK"
         },
@@ -9153,7 +9183,7 @@
                 ]
             },
             "title":"MongoDB: Mejora el rendimiento de tu aplicaci\u00f3n",
-            "totalLikes":44,
+            "totalLikes":61,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -9234,7 +9264,7 @@
                 ]
             },
             "title":"JavaScript of Things ",
-            "totalLikes":21,
+            "totalLikes":28,
             "totalVotes":20,
             "type":"TALK"
         },
@@ -9306,7 +9336,7 @@
                 ]
             },
             "title":"Desarrollo de aplicaciones con Grails 3, Angular JS y Spring Security",
-            "totalLikes":16,
+            "totalLikes":23,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -9362,7 +9392,7 @@
                 }
             ],
             "creationDate":1466146423439,
-            "description":"Si todav\u00eda no est\u00e1s familiarizado con NodeJS, te cuesta mucho tiempo levantar APIs o simplemente quieres **aprender a desarrollar APIs Restful y Back-end** tal y como lo hacemos en solusoft S.L., no lo dudes m\u00e1s y p\u00e1sate por nuestro workshop. \u00a1No te arrepentir\u00e1s! \n\nEn este workshop haremos en directo y todos juntos un caso de uso que cubra la mayor\u00eda de las necesidades que tienen los desarrolladores cuando trabajan con APIs. El objetivo es dar una visi\u00f3n global sobre los aspectos necesarios para realizar un **proyecto gen\u00e9rico de back-end a trav\u00e9s de un caso pr\u00e1ctico real**.\n\nEmpezaremos por comprender **c\u00f3mo se trabaja con callbacks**. Los desarrolladores que se enfrentan por primera vez a los callbacks tienen que hacer un ligero esfuerzo por entender otra forma de devolver los resultados de las funciones.\n\nVeremos c\u00f3mo ser\u00e1 el **uso de las librer\u00edas con NPM**. Al trabajar con NodeJS, m\u00e1s que nunca deberemos seguir una filosof\u00eda de reaprovechar el codigo de terceros, tirando de librer",
+            "description":"ACTUALIZACION, tener instalado lo siguiente:\n\nNode -> https://nodejs.org/download/\n\nMongo -> http://docs.mongodb.org/manual/installation/\n\nGit -> https://git-scm.com/\n\nVisual Code -> https://code.visualstudio.com/\n\nSi todav\u00eda no est\u00e1s familiarizado con NodeJS, te cuesta mucho tiempo levantar APIs o simplemente quieres **aprender a desarrollar APIs Restful y Back-end** tal y como lo hacemos en solusoft S.L., no lo dudes m\u00e1s y p\u00e1sate por nuestro workshop. \u00a1No te arrepentir\u00e1s! \n\nEn este workshop haremos en directo y todos juntos un caso de uso que cubra la mayor\u00eda de las necesidades que tienen los desarrolladores cuando trabajan con APIs. El objetivo es dar una visi\u00f3n global sobre los aspectos necesarios para realizar un **proyecto gen\u00e9rico de back-end a trav\u00e9s de un caso pr\u00e1ctico real**.\n\nEmpezaremos por comprender **c\u00f3mo se trabaja con callbacks**. Los desarrolladores que se enfrentan por primera vez a los callbacks tienen que hacer un ligero esfuerzo por entender otra forma de devolver los resultados de las funciones.\n\nVeremos c\u00f3mo ser\u00e1 el **uso de las librer\u00edas con NPM**. Al trabajar con NodeJS, m\u00e1s que nunca deberemos seguir una filosof\u00eda de reaprovechar el codigo de terceros, tirando de librer",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -9391,7 +9421,7 @@
                 ]
             },
             "title":"Back-end for dummies, NodeJS es tu amigo. \u00bfNos hacemos... unas APIs?",
-            "totalLikes":39,
+            "totalLikes":51,
             "totalVotes":7,
             "type":"TALK"
         },
@@ -9421,7 +9451,7 @@
                 }
             ],
             "creationDate":1465572723475,
-            "description":"Llevo desde febrero desarrollando con [Angular 2](https://angular.io/) y [Spring Boot](http://projects.spring.io/spring-boot/) y por eso me he decidido a proponer este taller en donde montar\u00e9 una peque\u00f1a aplicaci\u00f3n con este t\u00e1ndem.",
+            "description":"Llevo desde febrero desarrollando con [Angular 2](https://angular.io/) y [Spring Boot](http://projects.spring.io/spring-boot/) y por eso me he decidido a proponer este taller en donde montar\u00e9 una peque\u00f1a aplicaci\u00f3n con este t\u00e1ndem.\n\nAntes de venir a este taller me gustar\u00eda que [siguieras los pasos que detallo en el repositorio de mi github que he creado para tal proposito](https://github.com/asanzdiego/angular2-springboot-todolist).",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -9449,7 +9479,7 @@
                 ]
             },
             "title":"Taller de Angular 2 y Spring Boot",
-            "totalLikes":30,
+            "totalLikes":40,
             "totalVotes":14,
             "type":"TALK"
         },
@@ -9482,7 +9512,7 @@
         "contents":{
             "authors":[
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/78354002-b95ce20f",
+                    "avatar":"https://storage.googleapis.com/k-avatars/78354002-206aa0ab",
                     "feedback":{
                         "entriesCount":0,
                         "ratingAverage":0.0
@@ -9523,7 +9553,7 @@
                 }
             ],
             "creationDate":1465988113519,
-            "description":"El mundo de las apps en TV es todav\u00eda territorio inexplorado, ahora mismo hay apenas aplicaciones, aprovecha la oportunidad de realizar tu propia aplicaci\u00f3n y darte a conocer. \n \nEste taller te permitir\u00e1 conocer los conceptos b\u00e1sicos y dar los primeros pasos en ambas plataformas: **tvOS** & **AndroidTV**, adem\u00e1s nos permitir\u00e1 comparar las bondades y peculiaridades de cada una de ellas.\n\n**Prerequisitos:**\n \n* Para tvOS:\n * Portatil con Xcode (preferible \u00faltima versi\u00f3n)\n * Conocimientos b\u00e1sicos de Swift\n * Cliente Git\n\n\n* Para AndroidTV:\n\n   * Portatil con Android Studio (preferible \u00faltima versi\u00f3n)\n   * Conocimientos b\u00e1sicos de Java\n   * Cliente Git\n\n[TV Killed the Radio Star](https://www.youtube.com/watch?v=W8r-tXRLazs)",
+            "description":"El mundo de las apps en TV es todav\u00eda territorio inexplorado, ahora mismo hay apenas aplicaciones, aprovecha la oportunidad de realizar tu propia aplicaci\u00f3n y darte a conocer. \n \nEste taller te permitir\u00e1 conocer los conceptos b\u00e1sicos y dar los primeros pasos en ambas plataformas: **tvOS** & **AndroidTV**, adem\u00e1s nos permitir\u00e1 comparar las bondades y peculiaridades de cada una de ellas.\n\n**Prerequisitos:**\n \n* Para tvOS:\n * Portatil con Xcode (preferible \u00faltima versi\u00f3n)\n * Conocimientos b\u00e1sicos de Swift y Javascript\n * Cliente Git\n * XCode 8.1 Repo of the project:  https://github.com/odigeoteam/tvOS-workshop\n\n\n* Para AndroidTV:\n\n  * Android Studio 2.2\n  * SDK Tool version 23.0.0 or higher\n  * API 21 or higher \n  * Repo of the project: https://github.com/odigeoteam/AndroidTV-workshop\n\n[TV Killed the Radio Star](https://www.youtube.com/watch?v=W8r-tXRLazs)",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -9550,7 +9580,7 @@
                 ]
             },
             "title":"TV Future is Apps - tvOS vs AndroidTV",
-            "totalLikes":10,
+            "totalLikes":14,
             "totalVotes":12,
             "type":"TALK"
         },
@@ -9595,12 +9625,13 @@
                 }
             ],
             "creationDate":1466647587239,
-            "description":"Scary of Java 8 streams? Lost when debugging them? Do you think they were built by Evil people who enjoy watching you suffer trying to understand them? Become an Evil genius yourself by building your own and slapping a BIG MASSIVE \"in your face!\" to those who did not think about your brain health when designing them! Learning by doing will help you understand an obscure world that will finally become crystal clear.\n\nThe idea behind this workshop is building, from scratch, a set of classes that will be *conceptually* equivalent to those used in Java 8 streams to help attendees understand concepts that are hard to get for many people such as transformations, filtering, delayed execution and the implicit matryoshka doll effect of method chaining.\n\nTo attend this workshop, just bring your laptop with:\n\n* Your Java IDE of choice\n* JDK 8\n* Maven\n* Git",
+            "description":"Scary of Java 8 streams? Lost when debugging them? Do you think they were built by Evil people who enjoy watching you suffer trying to understand them? Become an Evil genius yourself by building your own and slapping a BIG MASSIVE \"in your face!\" to those who did not think about your brain health when designing them! Learning by doing will help you understand an obscure world that will finally become crystal clear.\n\nThe idea behind this workshop is building, from scratch, a set of classes that will be *conceptually* equivalent to those used in Java 8 streams to help attendees understand concepts that are hard to get for many people such as transformations, filtering, delayed execution and the implicit matryoshka doll effect of method chaining.\n\nTo attend this workshop, just bring your laptop with:\n\n* Your Java IDE of choice\n* JDK 8\n* Git: https://github.com/agplaza/my-first-stream\n\nFor a better experience, please clone the git repository before attending the workshop.",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
             },
             "id":5661553445568512,
+            "slidesUrl":"http://www.slideshare.net/AbelGarca5/myfirststream-you-can-build-it",
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
@@ -9620,7 +9651,7 @@
                 ]
             },
             "title":"MyFirstStream: you can build it!",
-            "totalLikes":5,
+            "totalLikes":8,
             "totalVotes":4,
             "type":"TALK"
         },
@@ -9702,7 +9733,7 @@
                 ]
             },
             "title":"Drupal 8: \u00a1 De 0 a producci\u00f3n en minutos !",
-            "totalLikes":3,
+            "totalLikes":7,
             "totalVotes":2,
             "type":"TALK"
         },
@@ -9733,7 +9764,7 @@
                 }
             ],
             "creationDate":1466356347945,
-            "description":"Si te interesa practicar o descubrir TDD con Scala este es tu taller, conoceremos las virtudes de los frameworks de test de este maravilloso lenguaje, desarrollando un par de sencillos ejercicios/katas, os espero con vuestro portatil cargado con las mejores herramientas y con ganas de darle ca\u00f1a y disfrutar.",
+            "description":"Si te interesa practicar o descubrir TDD con Scala este es tu taller, conoceremos las virtudes de los frameworks de test de este maravilloso lenguaje, desarrollando un par de sencillos ejercicios/katas, os espero con vuestro portatil cargado con las mejores herramientas y con ganas de darle ca\u00f1a y disfrutar.\n\nPara tener todo listo, clonar y ejecutar el proyecto https://github.com/ganger85/codemotion2016",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -9759,7 +9790,7 @@
                 ]
             },
             "title":"TDD con Scala",
-            "totalLikes":10,
+            "totalLikes":14,
             "totalVotes":9,
             "type":"TALK"
         },
@@ -9804,7 +9835,7 @@
                 }
             ],
             "creationDate":1466330721764,
-            "description":"\u00bfEres un Retro Gamer? \u00bfTe gusta programar aplicaciones de alto rendimiento? Entonces te gustar\u00e1 escribir tus propios emuladores.\n\nEn este taller veremos los principios b\u00e1sicos de un emulador, repasaremos su arquitectura e implementaremos en directo instrucciones de un emulador de Game Boy.\n\nEl ejemplo ser\u00e1 en Go por lo que necesitar\u00e1s conocimientos (muy b\u00e1sicos) de este lenguaje. No obstante, ser\u00e1 muy sencillo y lo visto en la teor\u00eda aplicar\u00e1 a cualquier lenguaje.\n\nSi quieres ensuciarte las manos necesitar\u00e1s un port\u00e1til con Windows, Linux o Mac OS X, configurado para compilar programas en Go. Pero no es necesario, har\u00e9 la implementaci\u00f3n en directo.\n\nUtilizaremos este repo de GitHub: https://github.com/drhelius/demo-emulator\n\nAseg\u00farate de tener el port\u00e1til configurado tal y como se detalla ah\u00ed. Puedes ir probando el emulador si lo deseas ;-)\n",
+            "description":"\u00bfEres un Retro Gamer? \u00bfTe gusta programar aplicaciones de alto rendimiento? Entonces te gustar\u00e1 escribir tus propios emuladores.\n\nVeremos los principios b\u00e1sicos de un emulador e implementaremos en directo algunas instrucciones de un emulador de **Game Boy**.\n\nEl ejemplo ser\u00e1 en **Go** por lo que necesitar\u00e1s conocimientos (muy b\u00e1sicos) de este lenguaje. No obstante, lo visto en la teor\u00eda aplicar\u00e1 a cualquier lenguaje.\n\nSi quieres ensuciarte las manos necesitar\u00e1s un **port\u00e1til** con Windows, Linux o Mac, configurado para compilar programas en Go. Pero no es necesario, haremos la implementaci\u00f3n en directo.\n\nUtilizaremos este repo de GitHub: https://github.com/drhelius/demo-emulator\n\n**Aseg\u00farate de tener el port\u00e1til configurado tal y como se detalla en el repo y prueba que lo siguiente te funciona**:\n\n`go get -u github.com/drhelius/demo-emulator`\n\nPuedes ir probando el emulador si lo deseas, para cualquier duda estoy en Twitter: [@drhelius](https://twitter.com/drhelius)\n",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
@@ -9830,7 +9861,7 @@
                 ]
             },
             "title":"Programaci\u00f3n de Emuladores con Go",
-            "totalLikes":12,
+            "totalLikes":15,
             "totalVotes":3,
             "type":"TALK"
         },
@@ -9902,7 +9933,7 @@
                 ]
             },
             "title":"Play4Learning - Agile Board Games",
-            "totalLikes":8,
+            "totalLikes":17,
             "totalVotes":7,
             "type":"TALK"
         },
@@ -9968,7 +9999,7 @@
                 ]
             },
             "title":"Polymer de prototipo a producci\u00f3n",
-            "totalLikes":30,
+            "totalLikes":42,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -10017,15 +10048,15 @@
                     "Intermediate"
                 ],
                 "Technology":[
-                    "Web",
-                    "SQL and NoSQL"
+                    "SQL and NoSQL",
+                    "Web"
                 ],
                 "Type of Proposal":[
                     "Workshop"
                 ]
             },
             "title":"Hackeando servicios web en Node",
-            "totalLikes":20,
+            "totalLikes":29,
             "totalVotes":11,
             "type":"TALK"
         },
@@ -10066,6 +10097,7 @@
                     },
                     "id":56594002,
                     "name":"Juan Antonio G\u00f3mez Benito",
+                    "twitterAccount":"shokmaster086",
                     "uuid":"juanantoniogomez"
                 },
                 {
@@ -10077,16 +10109,18 @@
                     },
                     "id":72944002,
                     "name":"Beatriz De Miguel Perez",
+                    "twitterAccount":"_beademiguel",
                     "uuid":"beatrizdemiguel"
                 }
             ],
             "creationDate":1466273460423,
-            "description":"### \u00bfPor qu\u00e9 este workshop?\nPorque empezar con un framework da mucha pereza. Pero don\u2019t worry my friend, en menos de dos horas sabr\u00e1s enfrentarte a uno de los mejores frameworks Javascript del momento.\n\n### \u00bfQu\u00e9 vas a aprender?\nTL;DR: Te contaremos por qu\u00e9 Ember mola tanto y c\u00f3mo funciona, y haremos una aplicaci\u00f3n web en tiempo r\u00e9cord.\n\n* Entender\u00e1s lo que es *\"The Ember Way\"*, sus convenciones y su arquitectura.\n* Definir\u00e1s rutas, modelos, controladores y componentes.\n* Descubrir\u00e1s [Ember CLI](https://ember-cli.com), una herramienta potente y f\u00e1cil de usar con la que generar autom\u00e1ticamente distintas partes de tu aplicaci\u00f3n.\n* Conocer\u00e1s los **addons** de Ember y los generadores de patrones.\n\n### \u00bfQu\u00e9 necesito?\nAparte de conocimientos b\u00e1sicos de HTML y Javascript, s\u00f3lo necesitas traer tu port\u00e1til con:\n* Tu editor de c\u00f3digo HTML/JS favorito\n* [Node](https://nodejs.org) instalado (versi\u00f3n m\u00ednima recomendada 4.0) y npm (2.x)\n* Git (en ciertos momentos usaremos c\u00f3digo de Github)",
+            "description":"### \u00bfPor qu\u00e9 este workshop?\nPorque empezar con un framework da mucha pereza. Pero don\u2019t worry my friend, en menos de dos horas sabr\u00e1s enfrentarte a uno de los mejores frameworks Javascript del momento.\n\n### \u00bfQu\u00e9 vas a aprender?\nTL;DR: Te contaremos por qu\u00e9 Ember mola tanto y c\u00f3mo funciona, y haremos una aplicaci\u00f3n web en tiempo r\u00e9cord.\n\n* Entender\u00e1s lo que es *\"The Ember Way\"*, sus convenciones y su arquitectura.\n* Definir\u00e1s rutas, modelos, controladores y componentes.\n* Descubrir\u00e1s [Ember CLI](https://ember-cli.com), una herramienta potente y f\u00e1cil de usar con la que generar autom\u00e1ticamente distintas partes de tu aplicaci\u00f3n.\n* Conocer\u00e1s los **addons** de Ember y los generadores de patrones.\n\n### \u00bfQu\u00e9 necesito?\nAparte de conocimientos b\u00e1sicos de HTML y Javascript, s\u00f3lo necesitas traer tu port\u00e1til con:\n* Tu editor de c\u00f3digo HTML/JS favorito\n* [Node](https://nodejs.org) instalado (versi\u00f3n m\u00ednima recomendada 4.0) y npm (2.x)\n* Git (en ciertos momentos usaremos c\u00f3digo de Github)\n* Descargarte este repo https://github.com/shokmaster/ember-workshops\n\n### Slides\n\nhttp://slides.com/beatrizdemiguelperez/deck-1",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
             },
             "id":5736265374760960,
+            "slidesUrl":"http://slides.com/beatrizdemiguelperez/deck-1",
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
@@ -10107,7 +10141,7 @@
                 ]
             },
             "title":"EmberJS: Aplicaciones web con un hamster gafapasta",
-            "totalLikes":14,
+            "totalLikes":25,
             "totalVotes":3,
             "type":"TALK"
         },
@@ -10141,7 +10175,7 @@
             "authors":[
                 {
                     "avatar":"https://storage.googleapis.com/k-avatars/78234003-50262a09",
-                    "description":"10 a\u00f1os de consultor\u00eda estrat\u00e9gica, teleco de coraz\u00f3n y actualmente trabajo en la transformaci\u00f3n digital de BBVA.",
+                    "description":"10 a\u00f1os de consultor\u00eda estrat\u00e9gica, teleco de coraz\u00f3n y actualmente trabajo en la transformaci\u00f3n digital de Aeg\u00f3n.",
                     "feedback":{
                         "entriesCount":0,
                         "ratingAverage":0.0
@@ -10176,8 +10210,8 @@
                     "Workshop"
                 ]
             },
-            "title":"Digital Bike",
-            "totalLikes":2,
+            "title":"Digital Bike (\u00a1Necesitamos Al Menos 40 personas para una aut\u00e9ntica transformaci\u00f3n Digital!)",
+            "totalLikes":4,
             "totalVotes":5,
             "type":"TALK"
         },
@@ -10210,46 +10244,46 @@
         "contents":{
             "authors":[
                 {
-                    "avatar":"https://storage.googleapis.com/k-avatars/70974007-439556a6",
-                    "description":"https://www.linkedin.com/in/robermorales",
+                    "avatar":"https://storage.googleapis.com/k-avatars/73024001-f51f2f6c",
+                    "description":"Manuel \u00c1ngel Quindimil es ingeniero de software en Salenda, apasionado del desarrollo web, enamorado del entorno Java y espec\u00edficamente de Grails. Ha trabajo con este framework desde hace varios a\u00f1os a la vez que ha profundizado con otras tecnolog\u00edas front-end y UX.",
                     "feedback":{
                         "entriesCount":0,
                         "ratingAverage":0.0
                     },
-                    "id":70974007,
-                    "name":"Rober Morales-Chaparro",
-                    "uuid":"robermorales"
+                    "id":73024001,
+                    "name":"Manuel \u00c1ngel Quindimil L\u00f3pez",
+                    "uuid":"quindimil"
                 }
             ],
-            "creationDate":1464858793389,
-            "description":"En visualligence resolvemos a menudo problemas de visualizaci\u00f3n de datos en navegador, y para ello exprimimos las tecnolog\u00edas al m\u00e1ximo.\n\nUsando CoffeeScript y tres librer\u00edas JS de referencia (d3js, crossfilter y underscore), el asistente podr\u00e1 realizar un peque\u00f1o panel de ejemplo que cargue (muchos) datos en tiempo real, y los renderice en un navegador web de forma est\u00e1ndar.\n\nExplicaremos los trucos que no vienen en los manuales, las t\u00e9cnicas de guerrilla para optimizar el c\u00f3digo y nuestro flujo de trabajo.",
+            "creationDate":1466367854333,
+            "description":"Grails es el framework m\u00e1s productivo de la plataforma Java. Vamos a aprender como crear una aplicaci\u00f3n web con Grails 3. Descubriremos como crear modelos relacionales, la capa MVC, el uso el plugins, de securizaci\u00f3n y otros, etc,... Aprenderemos desde lo m\u00e1s b\u00e1sico hasta desplegar la aplicaci\u00f3n en un Tomcat.",
             "feedback":{
                 "entriesCount":0,
                 "ratingAverage":0.0
             },
-            "id":5682930470879232,
+            "id":6328318664114176,
             "state":"ASSIGNED",
             "tags":{
                 "Language":[
-                    "JavaScript"
+                    "Java and JVM languages",
+                    "Groovy"
                 ],
                 "Language of the talk/workshop":[
                     "Spanish"
                 ],
                 "Level":[
-                    "Advanced"
+                    "Intermediate"
                 ],
                 "Technology":[
-                    "Big Data",
                     "Web"
                 ],
                 "Type of Proposal":[
                     "Workshop"
                 ]
             },
-            "title":"D3js llevado al extremo",
-            "totalLikes":22,
-            "totalVotes":4,
+            "title":"Boost your productivity. Grails yourself!",
+            "totalLikes":1,
+            "totalVotes":2,
             "type":"TALK"
         },
         "dayId":5716304078045184,
@@ -10318,7 +10352,7 @@
                 ]
             },
             "title":"Experimentando con chismes y cacharros",
-            "totalLikes":21,
+            "totalLikes":35,
             "totalVotes":19,
             "type":"TALK"
         },

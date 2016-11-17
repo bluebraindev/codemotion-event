@@ -1,6 +1,6 @@
 import json;
 
-with open('./agenda-code.json', encoding="utf8") as data_file: 
+with open('./agenda2.json', encoding="utf8") as data_file: 
     data = json.load(data_file);
 
 
