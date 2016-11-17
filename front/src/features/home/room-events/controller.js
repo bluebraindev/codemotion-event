@@ -31,7 +31,12 @@ export default function RoomEventsController($scope, $state, $roomEvents, $agend
     }
 
     function onSelect() {
-        // console.log(vm.confirmed)
+        // on changes
     }
 
+    vm.options = {
+        loop: false,
+        effect: 'fade',
+        speed: 500,
+    }
 }

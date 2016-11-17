@@ -1,13 +1,25 @@
 <ion-view class="room-events">
     <ion-header-bar align-title="center" class="search-header">
-        <select ng-model="vm.confirmed" ng-change="vm.onSelect()">
+        <select class="title" ng-model="vm.confirmed" ng-change="vm.onSelect()">
             <option ng-repeat="room in vm.rooms track by ($index)">{{room.name}}</option>
         </select>
-        <div class="bar bar-subheader">
-            <span ng-click="vm.getTalksByTrack('Track 2', 0)">Viernes</span>
-            <span ng-click="vm.getTalksByTrack('Track 3', 1)">Sábado</span>
-        </div>
     </ion-header-bar>
+    <div class="bar bar-subheader">
+        <span ng-click="vm.getTalksByTrack('Track 2', 0)">Viernes</span>
+        <span ng-click="vm.getTalksByTrack('Track 3', 1)">Sábado</span>
+    </div>
     <ion-content class="content">
+        <ion-slides options="vm.options" slider="data.slider">
+            <ion-slide-page>
+                <div class="box blue">
+                    <h1>BLUE</h1>
+                </div>
+            </ion-slide-page>
+            <ion-slide-page>
+                <div class="box yellow">
+                    <h1>YELLOW</h1>
+                </div>
+            </ion-slide-page>
+        </ion-slides>
     </ion-content>
-</ion-view>
+</ion-view> 
