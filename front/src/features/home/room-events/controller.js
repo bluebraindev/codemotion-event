@@ -1,31 +1,27 @@
-export default function RoomEventsController($scope, $state, $roomEvents) {
+export default function RoomEventsController($scope, $state, $roomEvents, $agenda) {
     'ngInject'
 
     var vm = this;
     vm.rooms = [];
     vm.events = [];
-    vm.getRoomFromSelect = getRoomFromSelect;
-    vm.getEventsByDayTrack = getEventsByDayTrack;
+    vm.getTalksByTrack = getTalksByTrack;
     vm.goDetail = goDetail;
 
     init();
 
     function init() {
-        vm.rooms = getRooms();
-        // FALTA COGER EL VALUE DE LA SALA EN EL SELECT ----- NG-CHANGE
-        vm.events = getEventsByDayTrack("Track 1", 0);                     
+        getRoomNames();
+        getTalksByTrack();
     }
 
-    function getRooms() {
-        return $roomEvents.getRooms().then(rooms => vm.rooms = rooms);
-    }
-
-    function getRoomFromSelect() {
-
-    }
-
-    function getEventsByDayTrack(trackName, day) {
-        return $roomEvents.getEventsByDayTrack(trackName, day).then(events => vm.events = events);
+    function getRoomNames() {
+        $agenda.getTracks().then((tracks) => {
+            tracks.filter(function (element) {
+                if (element.dayId === 5732408326356992) {
+                    vm.rooms.push(element);
+                }
+            });
+        });
     }
 
     function goDetail(event) {
