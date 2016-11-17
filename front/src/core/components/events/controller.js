@@ -9,7 +9,8 @@ class EventController {
 
     $onInit(){
         this.show = {
-            event: this.data.contents.type !== "EXTEND";
+            event: this.data.contents.type !== "EXTEND",
+            break: this.data.contents.type === "BREAK"
         }
     }
 }

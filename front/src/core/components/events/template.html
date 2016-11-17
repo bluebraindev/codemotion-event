@@ -2,7 +2,8 @@
     <div class="room">
         <div class="row-info">
             <div class="column-info">
-                <img ng-src="{{vm.data.contents.authors[0].avatar}}" alt="">
+                <img ng-if="!vm.show.break" ng-src="{{vm.data.contents.authors[0].avatar}}" alt="">
+                <img ng-if="vm.show.break" ng-src="build/img/icon.png" alt="">
             </div>
             <div class="column-info">
                 <div class="info">
@@ -19,6 +20,9 @@
                 </div>
             </div>
 
+            <div class="column-hour">
+                <span class="track" ng-bind="vm.data.track"></span>
+            </div>
 
             <div class="column-hour">
                 <div class="end-hour">

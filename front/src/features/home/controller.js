@@ -6,7 +6,6 @@ export default function HomeController($agenda) {
     init();
     
     vm.getRoom = getRoom;
-
     vm.rooms = [];
 
     function getRoom(position) {
@@ -17,7 +16,7 @@ export default function HomeController($agenda) {
         vm.header = 'Codemotion';
         $agenda.getTracks()
             .then((res) => {
-                res.data.forEach(justTracksToOrdinalDay)
+                res.forEach(justTracksToOrdinalDay)
             })
 
         function justTracksToOrdinalDay(track, index) {

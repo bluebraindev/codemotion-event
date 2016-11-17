@@ -2,7 +2,8 @@ export default function SearchController(ionicTimePicker, $log, $agenda, $scope)
     'ngInject'
     let vm = this;
     vm.openTimePicker = openTimePicker;
-    
+    vm.searchTalks = searchTalks;
+
     init();
 
     function init() {
@@ -10,13 +11,16 @@ export default function SearchController(ionicTimePicker, $log, $agenda, $scope)
         vm.endTime = (moment().hour() + 1) + ':00';
         $agenda.getDays().then(days => {
             vm.days = angular.copy(days);
-            vm.selected = vm.days[0];
+            vm.selectDay = vm.days[0].name;
             $agenda.getTalks().then(() => {
                 vm.talks = $agenda.getTalksByDate(days[0].date + ' ' + vm.startTime, days[0].date + ' ' + vm.endTime);
+                vm.array = {
+                    empty: !vm.talks.length > 0
+                };
             })
         });
 
-    }
+    };
 
     function openTimePicker(time, type) {
         let pickObj = {
@@ -35,17 +39,23 @@ export default function SearchController(ionicTimePicker, $log, $agenda, $scope)
                 let hour = parseInt(val / 3600, 10);
                 let min = (val - hour * 3600) / 60 < 10 ? '0' + (val - hour * 3600) / 60 : (val - hour * 3600) / 60;
                 time = moment(moment().format('YYYY-MM-DD').valueOf() + ' ' + hour + ':' + min).format('HH:mm');
-                
+
                 if ('start' === type) {
                     vm.startTime = time;
                 } else {
                     vm.endTime = time;
                 };
-
-                $agenda.getTalks().then(() => {
-                    vm.talks = $agenda.getTalksByDate(vm.selected.date + ' ' + vm.startTime, vm.selected.date + ' ' + vm.endTime);
-                });
+                searchTalks();
             }
         }
     };
+
+    function searchTalks() {
+        $agenda.getTalks().then($agenda.getDays).then(() => $agenda.getDayByName(vm.selectDay)).then(day => {
+            vm.talks = $agenda.getTalksByDate(day[0].date + ' ' + vm.startTime, day[0].date + ' ' + vm.endTime);
+            vm.array = {
+                empty: !vm.talks.length > 0
+            };
+        });
+    }
 }

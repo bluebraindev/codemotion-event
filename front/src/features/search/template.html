@@ -1,6 +1,7 @@
 <ion-view class="code-search">
     <ion-header-bar align-title="center" class="search-header">
-        <select class="title" ng-options="name as day.name for day in vm.days track by day.id" ng-model="vm.selected">
+        <select class="title" ng-model="vm.selectDay"  ng-change="vm.searchTalks()">
+            <option ng-repeat="day in vm.days track by ($index)">{{day.name}}</option>
         </select>
     </ion-header-bar>
     <section class="bar bar-subheader search-bar">
@@ -15,7 +16,11 @@
     </section>
     <ion-content class="search-content">
         <section class="events-list">
-            <code-event ng-repeat="event in vm.talks" data="event"></code-event>
+            <code-event ng-if="!vm.array.empty" ng-repeat="event in vm.talks" data="event"></code-event>
+            <div class="advise" ng-if="vm.array.empty" >
+                <i class="icon ion-alert-circled warning"></i>
+                <p class="warning-text">No hay charlas en que empiecen y acaben en este rango de tiempo</p>
+            </div>
         </section>
     </ion-content>
 </ion-view>

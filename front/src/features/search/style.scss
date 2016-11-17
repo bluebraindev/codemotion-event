@@ -41,6 +41,27 @@
     }
     .events-list{
         margin-top: 3.4rem;
+
+        .advise {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+
+            .warning {
+                font-size: 3rem;
+                color: $primary-color;
+                margin: .5rem;
+            }
+
+            .warning-text {
+                font-size: 2rem;
+                color: $primary-color;
+                line-height: 2rem;
+            }
+        }
     }
 }
 
