@@ -1,42 +1,44 @@
 <ion-view class="event-details">
-  <ion-header-bar align-title="center" class="search-header">
-    <h1 class="title" ng-bind="vm.header"></h1>
-  </ion-header-bar>
-  <ion-content class="wrapper">
-    <div class="container-event">
-      <div class="row">
-        <span class="title">{{vm.eventDetail.contents.title}}</span>
-      </div>
-      <div class="row">
-        <span class="hour">{{vm.eventDetail.start}}</span>
-        <span class="hour">{{vm.eventDetail.end}}</span>
-      </div>
-      <div class="col">
-        <div class="row" ng-repeat="tag in vm.tagsEvent">
-          <span class="tags">{{tag.toString()}}</span>
+    <ion-header-bar align-title="center" class="search-header">
+        <h1 class="title" ng-bind="vm.header"></h1>
+    </ion-header-bar>
+    <ion-content class="wrapper">
+        <div class="search-bar">
+            <span ng-bind="vm.eventDetail.contents.title"></span>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <span class="description">{{vm.eventDetail.description}}</span>
+        <div class="talk-content">
+            <div class="row hours">
+                <span class="hour start-time" ng-bind="vm.eventDetail.start"></span>
+                <span class="hour end-time" ng-bind="vm.eventDetail.end"></span>
+            </div>
+
+            <div>
+                <p class="talk-title">Tags</p>
+                <span ng-repeat="tag in vm.tagsEvent" class="tags" ng-bind="tag.toString()"></span>
+            </div>
+            
+            <div>
+                <p class="talk-title">Descripción</p>
+                <p class="description" ng-bind="vm.eventDetail.contents.description"></p>
+            </div>
+
+            <div>
+                <span class="talk-title">Autor/es</span>
+
+                <div class="row" ng-repeat="author in vm.authors" class="author-card">
+                    <div class="col">
+                        <img class="avatar" src="{{author.avatar}}" />
+                    </div>
+                    <div class="col col-90">
+                        <div class="row">
+                            <span class="author-name" ng-bind="author.name"></span>
+                        </div>
+                        <div class="row">
+                            <span class="author-description" ng-bind="author.description"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <span class="title">Author/es</span>
-      </div>
-      <div class="row" ng-repeat="author in vm.authors">
-        <div class="col">
-          <img class="avatar" src="{{author.avatar}}" />
-        </div>
-        <div class="col col-90">
-          <div class="row">
-            <span class="name">{{author.name}}</span>
-          </div>
-          <div class="row">
-            <span class="author-description">{{author.description}}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </ion-content>
+    </ion-content>
 </ion-view>

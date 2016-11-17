@@ -4,7 +4,7 @@ export default function HomeController($agenda) {
     var vm = this;
 
     init();
-    
+
     vm.getRoom = getRoom;
     vm.rooms = [];
 
@@ -16,11 +16,8 @@ export default function HomeController($agenda) {
         vm.header = 'Codemotion';
         $agenda.getTracks()
             .then((res) => {
-                res.forEach(justTracksToOrdinalDay)
+                vm.rooms = res;
+                vm.rooms.splice(12, 24);
             })
-
-        function justTracksToOrdinalDay(track, index) {
-            index < 12 ? vm.rooms.push(track) : undefined;
-        }
     }
 }

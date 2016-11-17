@@ -2,30 +2,41 @@ export default function RoomEventsController($scope, $state, $roomEvents, $agend
     'ngInject'
 
     var vm = this;
+
     vm.rooms = [];
-    vm.events = [];
-    vm.getTalksByTrack = getTalksByTrack;
+
+
     vm.goDetail = goDetail;
+    vm.onSelect = onSelect;
 
     init();
 
     function init() {
-        getRoomNames();
-        getTalksByTrack();
+        $agenda.getTalks()
+            .then(() => vm.eventsFromRoom = $agenda.getTalksByTrack($agenda.getIdToRoomEvents()));
+        $agenda.getTracks()
+            .then((res) => {
+                vm.rooms = res;
+                vm.rooms.splice(12, 24);
+                vm.rooms.forEach(assign);
+            })
+
+        function assign(element) {
+            element.id === $agenda.getIdToRoomEvents() ? vm.confirmed = element.name : undefined;
+        }
     }
 
-    function getRoomNames() {
-        $agenda.getTracks().then((tracks) => {
-            tracks.filter(function (element) {
-                if (element.dayId === 5732408326356992) {
-                    vm.rooms.push(element);
-                }
-            });
-        });
-    }
-
-    function goDetail(event) {
-        console.log(event);
+    function goDetail() {
         $state.go('home.event-details');
+    }
+
+    function onSelect() {
+        // on changes
+    }
+
+    vm.options = {
+        loop: false,
+        effect: 'fade',
+        speed: 500,
     }
 }

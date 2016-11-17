@@ -1,48 +1,18 @@
-.room-events {
-    display: flex;
-    flex-direction: column;
-
-    .item {
-        .select-room {
+.room-events{
+    .search-header{
+        select {
             display: flex;
-            flex-direction: row;
-            padding: 0 47% 0 0;        
-        }
-
-        &:after {
-            right: 42%;            
-        }        
+            width: 93%;
+            text-align-last: center;
+            background-color: transparent;
+            border: none;
+            color: $secondary-color;
+        } 
     }
-
-    .days {
-        display: flex;
-        flex-direction: row;
-        background-color: $primary-color;
-        width: 100%;
-        height: 2.5rem;
-        position: relative;       
-
-        .day {
-            display: flex;
-            flex-direction: column;
-            width: 50%;
-            text-align: center;            
+    .content{
+        margin-top: 3.2rem;
+        .box{
+            background-color: white; 
         }
     }
-
-    .content {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        padding: 5%;     
-
-        .scroll {
-            width: 100%;
-        }           
-        
-        .room-content {
-            margin-bottom: 5%;
-            border: 1px solid #000;            
-        }
-    }
-}
+}            

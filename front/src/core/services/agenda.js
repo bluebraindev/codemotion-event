@@ -5,17 +5,21 @@ export default function AgendaService ($http, $q){
     let talks;
     let tracks;
     let idFromTrack;
+    let eventId;
 
     this.getDays = getDays;
     this.getTalks = getTalks;
     this.getTracks = getTracks;
     this.getTalksByDay = getTalksByDay;
-    this.getTalksByDate = getTalksByDate;
+    this.getTalksByDate = getTalksByDate; 
     this.getTalksByTrack = getTalksByTrack;
     this.getTracksByDay = getTracksByDay;
     this.getDayByName = getDayByName;
     this.getTalkById = getTalkById;
     this.setIdFromTrack = setIdFromTrack;
+    this.getIdToRoomEvents = getIdToRoomEvents;
+    this.setEventId = setEventId;
+    this.getEventId = getEventId;
 
     function getDays(){
         let q = $q.defer();
@@ -62,6 +66,14 @@ export default function AgendaService ($http, $q){
 
     function getIdToRoomEvents() {
         return idFromTrack;
+    }
+
+    function setEventId(id) {
+        eventId = id;
+    }
+
+    function getEventId() {
+        return eventId;
     }
 
     function getTracksByDay(id) {

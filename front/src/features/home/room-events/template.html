@@ -1,18 +1,25 @@
-<ion-content class="room-events" scroll="false">
-    <div class="item item-select">
-        <select class="select-room">
-            <option class="option" ng-repeat="room in vm.rooms track by ($index)">{{room.name}}</option>
+<ion-view class="room-events">
+    <ion-header-bar align-title="center" class="search-header">
+        <select class="title" ng-model="vm.confirmed" ng-change="vm.onSelect()">
+            <option ng-repeat="room in vm.rooms track by ($index)">{{room.name}}</option>
         </select>
+    </ion-header-bar>
+    <div class="bar bar-subheader">
+        <span ng-click="vm.getTalksByTrack('Track 2', 0)">Viernes</span>
+        <span ng-click="vm.getTalksByTrack('Track 3', 1)">Sábado</span>
     </div>
-
-    <div class="days">
-        <span class="day" ng-click="vm.getTalksByTrack('Track 2', 0)">Viernes</span>
-        <span class="day" ng-click="vm.getTalksByTrack('Track 3', 1)">Sábado</span>
-    </div>
-
-    <ion-content scroll="true" class="content">
-        <div class="room-content" ng-repeat="event in vm.events">
-            <code-event data="event" ng-click="vm.goDetail(event)"></code-event>
-        </div>
+    <ion-content class="content">
+        <ion-slides options="vm.options" slider="data.slider">
+            <ion-slide-page>
+                <div class="box blue">
+                    <h1>BLUE</h1>
+                </div>
+            </ion-slide-page>
+            <ion-slide-page>
+                <div class="box yellow">
+                    <h1>YELLOW</h1>
+                </div>
+            </ion-slide-page>
+        </ion-slides>
     </ion-content>
-</ion-content>
+</ion-view> 
