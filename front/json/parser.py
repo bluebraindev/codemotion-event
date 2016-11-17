@@ -1,7 +1,6 @@
-import json
-from pprint import pprint;
+import json;
 
-with open('./agenda-code.json') as data_file: 
+with open('./agenda-code.json', encoding="utf8") as data_file: 
     data = json.load(data_file);
 
 
@@ -39,6 +38,7 @@ for date in dates:
             charla['startDate'] = '2016-11-' + str(momento) + ' ' + slot.get('start');
             charla['endDate'] = '2016-11-' + str(momento) + ' ' + slot.get('end');
             charla['dayId'] = date.get('id');
+            charla['track'] = track.get('name');
             
             talks.append(charla);
         tracks.append(sala);
