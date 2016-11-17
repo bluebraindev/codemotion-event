@@ -13,6 +13,7 @@ export default function AgendaService ($http, $q){
     this.getTalksByDate = getTalksByDate; 
     this.getTalksByTrack = getTalksByTrack;
     this.getTracksByDay = getTracksByDay;
+    this.getDayByName = getDayByName;
     this.getTalkById = getTalkById;
     this.setIdFromTrack = setIdFromTrack;
     this.getIdToRoomEvents = getIdToRoomEvents;
@@ -78,6 +79,10 @@ export default function AgendaService ($http, $q){
 
     function getTalkById(id) {
         return talks.filter(talk => talk.id === id);
+    }
+
+    function getDayByName(name){
+        return days.filter(day => day.name === name);
     }
 
     function getTalksByDate(start, end) {

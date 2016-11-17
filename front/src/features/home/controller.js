@@ -6,7 +6,6 @@ export default function HomeController($agenda) {
     init();
 
     vm.getRoom = getRoom;
-
     vm.rooms = [];
 
     function getRoom(position) {

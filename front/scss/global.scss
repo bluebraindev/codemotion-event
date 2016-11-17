@@ -4,6 +4,7 @@ $ionicons-font-path: "../../fonts/ionic" !default;
 @import "./lib/ionic/scss/ionic";
 @import "./scss/_variables";
 @import "./scss/_classes";
+@import "./scss/_mixins";
 
 // ESTILOS DE LOS MODULOS
 @import "./src/app/style";
