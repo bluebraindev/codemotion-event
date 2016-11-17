@@ -1,14 +1,18 @@
 .room-events{
     .search-header{
-        select{
-            margin: 0 auto;  
-            width: 80%;
-            border: none;
+        select {
+            display: flex;
+            width: 93%;
             text-align-last: center;
-            color: $primary-color-light; 
-        }
+            background-color: transparent;
+            border: none;
+            color: $secondary-color;
+        } 
     }
     .content{
-        
+        margin-top: 3.2rem;
+        .box{
+            background-color: white; 
+        }
     }
-}
+}            
