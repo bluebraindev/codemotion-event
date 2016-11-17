@@ -1,40 +1,42 @@
 <ion-view class="event-details">
-    <ion-header-bar align-title="center" class="search-header">
-        <h1 class="title" ng-bind="vm.header"></h1>
-    </ion-header-bar>
-    <ion-content class="wrapper">
-        <div class="row">
-            <span class="title">{{vm.eventDetail.contents.title}}</span>
+  <ion-header-bar align-title="center" class="search-header">
+    <h1 class="title" ng-bind="vm.header"></h1>
+  </ion-header-bar>
+  <ion-content class="wrapper">
+    <div class="container-event">
+      <div class="row">
+        <span class="title">{{vm.eventDetail.contents.title}}</span>
+      </div>
+      <div class="row">
+        <span class="hour">{{vm.eventDetail.start}}</span>
+        <span class="hour">{{vm.eventDetail.end}}</span>
+      </div>
+      <div class="col">
+        <div class="row" ng-repeat="tag in vm.tagsEvent">
+          <span class="tags">{{tag.toString()}}</span>
         </div>
-        <div class="row">
-            <span class="hour">{{vm.eventDetail.start}}</span>
-            <span class="hour">{{vm.eventDetail.end}}</span>
-        </div>
+      </div>
+      <div class="row">
         <div class="col">
-            <div class="row" ng-repeat="tag in vm.tagsEvent">
-                <span class="tags">{{tag.toString()}}</span>                
-            </div>
+          <span class="description">{{vm.eventDetail.description}}</span>
         </div>
-        <div class="row">
-            <div class="col">
-                <span class="description">{{vm.eventDetail.description}}</span>
-            </div>
+      </div>
+      <div class="row">
+        <span class="title">Author/es</span>
+      </div>
+      <div class="row" ng-repeat="author in vm.authors">
+        <div class="col">
+          <img class="avatar" src="{{author.avatar}}" />
         </div>
-        <div class="row">
-            <span class="title">Author/es</span>
+        <div class="col col-90">
+          <div class="row">
+            <span class="name">{{author.name}}</span>
+          </div>
+          <div class="row">
+            <span class="author-description">{{author.description}}</span>
+          </div>
         </div>
-        <div class="row" ng-repeat="author in vm.authors">
-            <div class="col">
-                <img class="avatar" src="{{author.avatar}}" />
-            </div>
-            <div class="col col-90">
-                <div class="row">
-                    <span class="name">{{author.name}}</span>
-                </div>
-                <div class="row">
-                    <span class="author-description">{{author.description}}</span>
-                </div>
-            </div>
-        </div>
-    </ion-content>
+      </div>
+    </div>
+  </ion-content>
 </ion-view>
