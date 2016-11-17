@@ -6,43 +6,13 @@
     </div>
 
     <div class="days">
-        <span class="day" ng-click="vm.getEventsByDayTrack('Track 2', 0)">Viernes</span>
-        <span class="day" ng-click="vm.getEventsByDayTrack('Track 3', 1)">Sábado</span>
+        <span class="day" ng-click="vm.getTalksByTrack('Track 2', 0)">Viernes</span>
+        <span class="day" ng-click="vm.getTalksByTrack('Track 3', 1)">Sábado</span>
     </div>
 
     <ion-content scroll="true" class="content">
         <div class="room-content" ng-repeat="event in vm.events">
-            <!--<code-event data="event"></code-event>-->
-            <div class="room" ng-click="vm.goDetail(event)">
-                <div class="row-info">
-                    <div class="column-info">
-                        <img src="{{event.contents.authors[0].avatar}}" alt="">
-                    </div>
-                    <div class="column-info">
-                        <div class="info">
-                            <p class="tittle" ng-bind="event.contents.title"></p>
-                            <label>
-                                Speaker:
-                                <span class="author" ng-bind="event.contents.authors[0].twitterAccount"></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="row-hours">
-                    <div class="column-hour">
-                        <div class="start-hour">
-                            <i class="icon ion-arrow-right-b"></i>
-                            <span ng-bind="event.start"></span>
-                        </div>
-                    </div>                    
-                    <div class="column-hour">
-                        <div class="end-hour">
-                            <span ng-bind="event.end"></span>                            
-                            <i class="icon ion-arrow-left-b"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <code-event data="event" ng-click="vm.goDetail(event)"></code-event>
         </div>
     </ion-content>
 </ion-content>

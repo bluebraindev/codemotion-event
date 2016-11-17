@@ -1,19 +1,32 @@
 <section class="code-event-card">
-    <div class="row-info">
-        <img src="data.contents.authors[0].avatar" alt="">
-        <div class="info">
-            <p class="tittle" ng-bind="data.contents.title"></p>
-            <p class="author" ng-bind="data.contents.authors[0].twitterAccount"></p>
+    <div class="room">
+        <div class="row-info">
+            <div class="column-info">
+                <img src="{{data.contents.authors[0].avatar}}" alt="">
+            </div>
+            <div class="column-info">
+                <div class="info">
+                    <p class="tittle" ng-bind="data.contents.title"></p>
+                    <label>
+                        Speaker:
+                        <span class="author" ng-bind="data.contents.authors[0].twitterAccount"></span>
+                    </label>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row-hours">
-        <div class="start-hour">
-            <i class="icon ion-arrow-right-b"></i>
-            <span ng-bind="data.start"></span>
-        </div>
-        <div class="end-hour">
-            <span ng-bind="data.end"></span>
-            <i class="icon ion-arrow-left-b"></i>
+        <div class="row-hours">
+            <div class="column-hour">
+                <div class="start-hour">
+                    <i class="icon ion-arrow-right-b"></i>
+                    <span ng-bind="data.start"></span>
+                </div>
+            </div>
+            <div class="column-hour">
+                <div class="end-hour">
+                    <span ng-bind="data.end"></span>
+                    <i class="icon ion-arrow-left-b"></i>
+                </div>
+            </div>
         </div>
     </div>
 </section>
