@@ -1,4 +1,6 @@
-export default function FooterController($state){
+export default function FooterController($state, $ionicHistory){
+    'ngInject'
+
     let vm = this;
 
     let styles = {
@@ -19,6 +21,11 @@ export default function FooterController($state){
         vm.footer[vm.footer.actived] = styles.normal;
         vm.footer[state] = styles.active;
         vm.footer.actived = state;
+
+        $ionicHistory.nextViewOptions({
+            disableBack: true,
+            historyRoot: true
+        });
 
         $state.go(state);
     };

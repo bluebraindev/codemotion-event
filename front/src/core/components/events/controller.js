@@ -1,5 +1,8 @@
 class EventController {
-    constructor() {};
+    constructor($state, $agenda) {
+        this._state = $state;
+        this._agenda = $agenda;
+    };
 
     $onChanges(changes) {
         if (changes.data) {
@@ -7,11 +10,15 @@ class EventController {
         };
     };
 
-    $onInit(){
+    $onInit() {
         this.show = {
             event: this.data.contents.type !== "EXTEND",
             break: this.data.contents.type === "BREAK"
         }
+    }
+    goDetails(id) {
+        this._agenda.setEventId(id);
+        this._state.go('home.event-details');
     }
 }
 

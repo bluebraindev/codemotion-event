@@ -2,7 +2,6 @@ export default function EventDetailsController($scope, $state, $eventDetails, $a
     'ngInject'
 
     var vm = this;
-    var talks = [];
     vm.authors = [];
     vm.tagsEvent = {};    
 
@@ -12,11 +11,10 @@ export default function EventDetailsController($scope, $state, $eventDetails, $a
         vm.header = 'Event Details';
 
         $agenda.getTalks().then(() => {
-            var talk = $agenda.getTalkById(85544001);
+            var talk = $agenda.getTalkById($agenda.getEventId());
             vm.eventDetail = talk[0];
             vm.authors = talk[0].contents.authors;
             vm.tagsEvent = talk[0].contents.tags;
-                    
         });
     }
 }
