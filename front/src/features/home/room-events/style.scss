@@ -1,18 +1,32 @@
-.room-events{
-    .search-header{
-        select {
-            display: flex;
-            width: 93%;
-            text-align-last: center;
-            background-color: transparent;
-            border: none;
-            color: $secondary-color;
-        } 
+.room-events {
+  .search-header {
+    select {
+      display: flex;
+      width: 93%;
+      text-align-last: center;
+      background-color: transparent;
+      border: none;
+      color: $secondary-color;
     }
-    .content{
-        margin-top: 3.2rem;
-        .box{
-            background-color: white; 
-        }
+  }
+  .content {
+    margin-top: 3.2rem;
+    .box {
+      background-color: white;
     }
-}            
+  }
+  .search-header:after {
+    content: "▼";
+    color: white;
+    padding: 12px 8px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    width: 75%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+  }
+}
