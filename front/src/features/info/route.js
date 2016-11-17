@@ -2,7 +2,7 @@ export default function InfoRoute($stateProvider) {
 	$stateProvider
 		.state('info', {
 			parent: 'codemotion',
-			cache: false,
+			cache: true,
 			url: '/info',
 			views: {
                 'bodyView': {
