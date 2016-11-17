@@ -1,16 +1,13 @@
-<section class="code-event-card">
+<section class="code-event-card" ng-if="vm.show.event">
     <div class="room">
         <div class="row-info">
             <div class="column-info">
-                <img src="{{data.contents.authors[0].avatar}}" alt="">
+                <img ng-src="{{vm.data.contents.authors[0].avatar}}" alt="">
             </div>
             <div class="column-info">
                 <div class="info">
-                    <p class="tittle" ng-bind="data.contents.title"></p>
-                    <label>
-                        Speaker:
-                        <span class="author" ng-bind="data.contents.authors[0].twitterAccount"></span>
-                    </label>
+                    <p class="tittle" ng-bind="vm.data.contents.title"></p>
+                    <span class="author" ng-bind="vm.data.contents.authors[0].twitterAccount"></span>
                 </div>
             </div>
         </div>
@@ -18,12 +15,14 @@
             <div class="column-hour">
                 <div class="start-hour">
                     <i class="icon ion-arrow-right-b"></i>
-                    <span ng-bind="data.start"></span>
+                    <span ng-bind="vm.data.start"></span>
                 </div>
             </div>
+
+
             <div class="column-hour">
                 <div class="end-hour">
-                    <span ng-bind="data.end"></span>
+                    <span ng-bind="vm.data.end"></span>
                     <i class="icon ion-arrow-left-b"></i>
                 </div>
             </div>
