@@ -1,4 +1,4 @@
-export default function SearchController(ionicTimePicker, $log, $agenda, $scope) {
+export default function SearchController(ionicTimePicker, $agenda) {
     'ngInject'
     let vm = this;
     vm.openTimePicker = openTimePicker;
